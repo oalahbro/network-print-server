@@ -28,7 +28,7 @@ Edit `conf.json` untuk mengatur printer dan port yang digunakan:
 ```json
 {
   "DEFAULT": "HAKA",
-  "PRINTER_NAME": "\\LAPTOP-EN2ING59HAKA",
+  "PRINTER_NAME": "\\LAPTOP-EN2ING59\HAKA",
   "PORT": 9100
 }
 ```
