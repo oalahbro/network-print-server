@@ -1,4 +1,4 @@
-# Print Server
+# EPP Print Server
 
 Print Server ini adalah aplikasi berbasis Python yang berfungsi sebagai server cetak menggunakan Flask dan socket server. Proyek ini memungkinkan pengguna untuk mengirim dokumen ke printer melalui jaringan, mirip dengan CUPS (Common UNIX Printing System), tetapi dibuat khusus untuk lingkungan Windows dengan `win32print`.
 
