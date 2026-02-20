@@ -1,3 +1,0 @@
-pyinstaller32 --onedir --windowed --add-data "templates:templates" --icon=EPP.ico epp.py
-
-pyinstaller32 --onedir --windowed --add-data "templates;templates" --add-data "static;static" --icon=EPP.ico epp.py
