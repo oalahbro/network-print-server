@@ -18,7 +18,7 @@ cd repository-name
 Gunakan `pip` untuk menginstal dependensi yang diperlukan:
 
 ```bash
-pip install flask waitress pywin32
+pip install flask waitress pywin32 pillow pystray
 ```
 
 ### 3. **Konfigurasi**
@@ -55,6 +55,7 @@ http://localhost:5000
 - Mengirim data ke printer menggunakan `win32print`
 - Menyediakan dashboard berbasis Flask
 - Logging dengan sistem rotasi file (`log1.bak`, `log2.bak`, ...)
+- Reprint receipt history
 - Berfungsi sebagai print spooler alternatif seperti CUPS untuk Windows
 - **Didesain khusus untuk printer thermal dengan ESC/POS**
 - **Mendukung printer thermal dengan driver POS80 Universal atau Text/Generic Printer di Windows**
@@ -63,7 +64,7 @@ http://localhost:5000
 
 - Pastikan Python sudah terinstal.
 - Aplikasi ini hanya berjalan di Windows karena menggunakan `win32print`.
-- Tidak mendukung printer laser atau inkjet biasa, hanya thermal printer dengan ESC/POS.
+- Mendukung printer regular dan ESC/POS.
 
 ## 🛠 Pengembangan & Kontribusi
 
