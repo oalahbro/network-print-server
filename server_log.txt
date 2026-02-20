@@ -1,0 +1,594 @@
+2026-02-19 00:00:59,343 - INFO - 🛠 Starting print server ...
+2026-02-19 00:00:59,354 - INFO - 🚀 Print server running on port 9100...
+2026-02-19 00:00:59,359 - INFO - Serving on http://0.0.0.0:5000
+2026-02-19 00:01:06,462 - INFO - 🔁 Reprint Job ID: 2 (Count: 1)
+2026-02-19 00:01:06,462 - INFO - 🖨️ Mengirim ke printer: \\ESB-LP225\DRIVER SERVER
+2026-02-19 00:01:37,856 - INFO - 🔁 Reprint Job ID: 2 (Count: 1)
+2026-02-19 00:01:37,856 - INFO - 🖨️ Mengirim ke printer: \\ESB-LP225\DRIVER SERVER
+2026-02-19 00:01:40,660 - INFO - 🔁 Reprint Job ID: 2 (Count: 1)
+2026-02-19 00:01:40,660 - INFO - 🖨️ Mengirim ke printer: \\ESB-LP225\DRIVER SERVER
+2026-02-19 00:02:04,845 - INFO - 🔗 Connection received from ('127.0.0.1', 35401)
+2026-02-19 00:02:04,845 - INFO - 📄 Deteksi dokumen non-ESC/POS (umum)
+2026-02-19 00:02:04,845 - INFO - 🖨 Mengirim 677 bytes ke printer...
+2026-02-19 00:02:04,845 - INFO - 📃 Print job baru diterima
+2026-02-19 00:02:04,845 - INFO - 📃 Menerima permintaan cetak: b'\n\x1ba\x01\x1b!8SUSHI KAI\n\x1b@\x1ba\x01Mall Pollux, Jl. Raya Cikarang -  GF\n\x1b@------------------------------------------------\nNo        : SskX20252511210\nTime In   : 25-11-2025 14:17\nInfo      : EKA DINEIN 18\nCashier   : AYU\n------------------------------------------------\nHOT OCHA                                  12.000\n 1X @12000\nABURI BEEF RAMEN                          32.000\n 1X @32000\n\n------------------------------------------------\n2 item\nSubtotal :                                44.000\n------------------------------------------------\n\x1ba2\x1b!\x18Total :    44.000\n\x1d!\x00\nBCA DEBIT       : 44.000\n\x1b@------------------------------------------------  \n\x1ba\x01- Harga sudah termasuk PB1 -\n\n\n\n\x1dV\x00'
+2026-02-19 00:02:04,845 - INFO - 🖨️ Mengirim ke printer: \\ESB-LP225\DRIVER SERVER
+2026-02-19 00:02:04,902 - INFO - ✅ Cetak berhasil.
+2026-02-19 00:02:04,902 - INFO - b'\n\x1ba\x01\x1b!8SUSHI KAI\n\x1b@\x1ba\x01Mall Pollux, Jl. Raya Cikarang -  GF\n\x1b@------------------------------------------------\nNo        : SskX20252511210\nTime In   : 25-11-2025 14:17\nInfo      : EKA DINEIN 18\nCashier   : AYU\n------------------------------------------------\nHOT OCHA                                  12.000\n 1X @12000\nABURI BEEF RAMEN                          32.000\n 1X @32000\n\n------------------------------------------------\n2 item\nSubtotal :                                44.000\n------------------------------------------------\n\x1ba2\x1b!\x18Total :    44.000\n\x1d!\x00\nBCA DEBIT       : 44.000\n\x1b@------------------------------------------------  \n\x1ba\x01- Harga sudah termasuk PB1 -\n\n\n\n\x1dV\x00'
+2026-02-19 00:02:04,902 - INFO - 🧾 History tersimpan. Total job: 3
+2026-02-19 00:02:04,902 - INFO - [{'id': 3, 'printer': '\\\\ESB-LP225\\DRIVER SERVER', 'timestamp': '2026-02-19 00:02:04.902100', 'size': 677, 'raw_data': '0a1b61011b21385355534849204b41490a1b401b61014d616c6c20506f6c6c75782c204a6c2e20526179612043696b6172616e67202d202047460a1b402d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d0a4e6f20202020202020203a2053736b5832303235323531313231300a54696d6520496e2020203a2032352d31312d323032352031343a31370a496e666f2020202020203a20454b412044494e45494e2031380a436173686965722020203a204159550a2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d0a484f54204f4348412020202020202020202020202020202020202020202020202020202020202020202031322e3030300a203158204031323030300a414255524920424545462052414d454e202020202020202020202020202020202020202020202020202033322e3030300a203158204033323030300a0a2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d0a32206974656d0a537562746f74616c203a202020202020202020202020202020202020202020202020202020202020202034342e3030300a2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d0a1b61321b2118546f74616c203a2020202034342e3030300a1d21000a424341204445424954202020202020203a2034342e3030300a1b402d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d20200a1b61012d204861726761207375646168207465726d6173756b20504231202d0a0a0a0a1d5600', 'print_count': 0}, {'id': 2, 'printer': '\\\\ESB-LP225\\DRIVER SERVER', 'timestamp': '2026-02-18 23:57:49.432365', 'size': 677, 'raw_data': '0a1b61011b21385355534849204b41490a1b401b61014d616c6c20506f6c6c75782c204a6c2e20526179612043696b6172616e67202d202047460a1b402d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d0a4e6f20202020202020203a2053736b5832303235323531313231300a54696d6520496e2020203a2032352d31312d323032352031343a31370a496e666f2020202020203a20454b412044494e45494e2031380a436173686965722020203a204159550a2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d0a484f54204f4348412020202020202020202020202020202020202020202020202020202020202020202031322e3030300a203158204031323030300a414255524920424545462052414d454e202020202020202020202020202020202020202020202020202033322e3030300a203158204033323030300a0a2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d0a32206974656d0a537562746f74616c203a202020202020202020202020202020202020202020202020202020202020202034342e3030300a2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d0a1b61321b2118546f74616c203a2020202034342e3030300a1d21000a424341204445424954202020202020203a2034342e3030300a1b402d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d20200a1b61012d204861726761207375646168207465726d6173756b20504231202d0a0a0a0a1d5600', 'print_count': 0}, {'id': 1, 'printer': '\\\\ESB-LP225\\DRIVER SERVER', 'timestamp': '2026-02-18 23:20:52.552480', 'size': 677, 'raw_data': '0a1b61011b21385355534849204b41490a1b401b61014d616c6c20506f6c6c75782c204a6c2e20526179612043696b6172616e67202d202047460a1b402d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d0a4e6f20202020202020203a2053736b5832303235323531313231300a54696d6520496e2020203a2032352d31312d323032352031343a31370a496e666f2020202020203a20454b412044494e45494e2031380a436173686965722020203a204159550a2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d0a484f54204f4348412020202020202020202020202020202020202020202020202020202020202020202031322e3030300a203158204031323030300a414255524920424545462052414d454e202020202020202020202020202020202020202020202020202033322e3030300a203158204033323030300a0a2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d0a32206974656d0a537562746f74616c203a202020202020202020202020202020202020202020202020202020202020202034342e3030300a2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d0a1b61321b2118546f74616c203a2020202034342e3030300a1d21000a424341204445424954202020202020203a2034342e3030300a1b402d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d20200a1b61012d204861726761207375646168207465726d6173756b20504231202d0a0a0a0a1d5600', 'print_count': 3}]
+2026-02-19 00:02:17,752 - INFO - 🔁 Reprint Job ID: 3 (Count: 1)
+2026-02-19 00:02:17,752 - INFO - 🖨️ Mengirim ke printer: \\ESB-LP225\DRIVER SERVER
+2026-02-19 00:03:18,722 - INFO - 🛠 Starting print server ...
+2026-02-19 00:03:18,722 - INFO - 🚀 Print server running on port 9100...
+2026-02-19 00:03:18,741 - INFO - Serving on http://0.0.0.0:5000
+2026-02-19 00:03:24,266 - INFO - 🔁 Reprint Job ID: 3 (Count: 1)
+2026-02-19 00:03:24,266 - INFO - 🖨️ Mengirim ke printer: \\ESB-LP225\DRIVER SERVER
+2026-02-19 00:03:33,741 - INFO - 🔁 Reprint Job ID: 3 (Count: 2)
+2026-02-19 00:03:33,742 - INFO - 🖨️ Mengirim ke printer: \\ESB-LP225\DRIVER SERVER
+2026-02-19 00:03:34,132 - INFO - 🔁 Reprint Job ID: 3 (Count: 3)
+2026-02-19 00:03:34,132 - INFO - 🖨️ Mengirim ke printer: \\ESB-LP225\DRIVER SERVER
+2026-02-19 00:03:34,779 - WARNING - ❌ Max reprint reached
+2026-02-19 00:03:50,400 - WARNING - ❌ Max reprint reached
+2026-02-19 00:04:01,080 - WARNING - ❌ Max reprint reached
+2026-02-19 00:04:27,530 - INFO - 🔗 Connection received from ('127.0.0.1', 12810)
+2026-02-19 00:04:27,530 - INFO - 📄 Deteksi dokumen non-ESC/POS (umum)
+2026-02-19 00:04:27,530 - INFO - 🖨 Mengirim 677 bytes ke printer...
+2026-02-19 00:04:27,530 - INFO - 📃 Print job baru diterima
+2026-02-19 00:04:27,530 - INFO - 📃 Menerima permintaan cetak: b'\n\x1ba\x01\x1b!8SUSHI KAI\n\x1b@\x1ba\x01Mall Pollux, Jl. Raya Cikarang -  GF\n\x1b@------------------------------------------------\nNo        : SskX20252511210\nTime In   : 25-11-2025 14:17\nInfo      : EKA DINEIN 18\nCashier   : AYU\n------------------------------------------------\nHOT OCHA                                  12.000\n 1X @12000\nABURI BEEF RAMEN                          32.000\n 1X @32000\n\n------------------------------------------------\n2 item\nSubtotal :                                44.000\n------------------------------------------------\n\x1ba2\x1b!\x18Total :    44.000\n\x1d!\x00\nBCA DEBIT       : 44.000\n\x1b@------------------------------------------------  \n\x1ba\x01- Harga sudah termasuk PB1 -\n\n\n\n\x1dV\x00'
+2026-02-19 00:04:27,530 - INFO - 🖨️ Mengirim ke printer: \\ESB-LP225\DRIVER SERVER
+2026-02-19 00:04:27,603 - INFO - ✅ Cetak berhasil.
+2026-02-19 00:04:27,603 - INFO - b'\n\x1ba\x01\x1b!8SUSHI KAI\n\x1b@\x1ba\x01Mall Pollux, Jl. Raya Cikarang -  GF\n\x1b@------------------------------------------------\nNo        : SskX20252511210\nTime In   : 25-11-2025 14:17\nInfo      : EKA DINEIN 18\nCashier   : AYU\n------------------------------------------------\nHOT OCHA                                  12.000\n 1X @12000\nABURI BEEF RAMEN                          32.000\n 1X @32000\n\n------------------------------------------------\n2 item\nSubtotal :                                44.000\n------------------------------------------------\n\x1ba2\x1b!\x18Total :    44.000\n\x1d!\x00\nBCA DEBIT       : 44.000\n\x1b@------------------------------------------------  \n\x1ba\x01- Harga sudah termasuk PB1 -\n\n\n\n\x1dV\x00'
+2026-02-19 00:04:27,604 - INFO - 🧾 History tersimpan. Total job: 1
+2026-02-19 00:04:33,406 - INFO - 🔗 Connection received from ('127.0.0.1', 12812)
+2026-02-19 00:04:33,406 - INFO - 📄 Deteksi dokumen non-ESC/POS (umum)
+2026-02-19 00:04:33,406 - INFO - 🖨 Mengirim 677 bytes ke printer...
+2026-02-19 00:04:33,406 - INFO - 📃 Print job baru diterima
+2026-02-19 00:04:33,406 - INFO - 📃 Menerima permintaan cetak: b'\n\x1ba\x01\x1b!8SUSHI KAI\n\x1b@\x1ba\x01Mall Pollux, Jl. Raya Cikarang -  GF\n\x1b@------------------------------------------------\nNo        : SskX20252511210\nTime In   : 25-11-2025 14:17\nInfo      : EKA DINEIN 18\nCashier   : AYU\n------------------------------------------------\nHOT OCHA                                  12.000\n 1X @12000\nABURI BEEF RAMEN                          32.000\n 1X @32000\n\n------------------------------------------------\n2 item\nSubtotal :                                44.000\n------------------------------------------------\n\x1ba2\x1b!\x18Total :    44.000\n\x1d!\x00\nBCA DEBIT       : 44.000\n\x1b@------------------------------------------------  \n\x1ba\x01- Harga sudah termasuk PB1 -\n\n\n\n\x1dV\x00'
+2026-02-19 00:04:33,406 - INFO - 🖨️ Mengirim ke printer: \\ESB-LP225\DRIVER SERVER
+2026-02-19 00:04:33,463 - INFO - ✅ Cetak berhasil.
+2026-02-19 00:04:33,463 - INFO - b'\n\x1ba\x01\x1b!8SUSHI KAI\n\x1b@\x1ba\x01Mall Pollux, Jl. Raya Cikarang -  GF\n\x1b@------------------------------------------------\nNo        : SskX20252511210\nTime In   : 25-11-2025 14:17\nInfo      : EKA DINEIN 18\nCashier   : AYU\n------------------------------------------------\nHOT OCHA                                  12.000\n 1X @12000\nABURI BEEF RAMEN                          32.000\n 1X @32000\n\n------------------------------------------------\n2 item\nSubtotal :                                44.000\n------------------------------------------------\n\x1ba2\x1b!\x18Total :    44.000\n\x1d!\x00\nBCA DEBIT       : 44.000\n\x1b@------------------------------------------------  \n\x1ba\x01- Harga sudah termasuk PB1 -\n\n\n\n\x1dV\x00'
+2026-02-19 00:04:33,465 - INFO - 🧾 History tersimpan. Total job: 1
+2026-02-19 00:04:50,300 - INFO - 🛠 Starting print server ...
+2026-02-19 00:04:50,300 - INFO - 🚀 Print server running on port 9100...
+2026-02-19 00:04:50,305 - INFO - Serving on http://0.0.0.0:5000
+2026-02-19 00:05:06,370 - INFO - 🔗 Connection received from ('127.0.0.1', 26759)
+2026-02-19 00:05:06,372 - INFO - 📄 Deteksi dokumen non-ESC/POS (umum)
+2026-02-19 00:05:06,372 - INFO - 🖨 Mengirim 677 bytes ke printer...
+2026-02-19 00:05:06,372 - INFO - 📃 Print job baru diterima
+2026-02-19 00:05:06,372 - INFO - 📃 Menerima permintaan cetak: b'\n\x1ba\x01\x1b!8SUSHI KAI\n\x1b@\x1ba\x01Mall Pollux, Jl. Raya Cikarang -  GF\n\x1b@------------------------------------------------\nNo        : SskX20252511210\nTime In   : 25-11-2025 14:17\nInfo      : EKA DINEIN 18\nCashier   : AYU\n------------------------------------------------\nHOT OCHA                                  12.000\n 1X @12000\nABURI BEEF RAMEN                          32.000\n 1X @32000\n\n------------------------------------------------\n2 item\nSubtotal :                                44.000\n------------------------------------------------\n\x1ba2\x1b!\x18Total :    44.000\n\x1d!\x00\nBCA DEBIT       : 44.000\n\x1b@------------------------------------------------  \n\x1ba\x01- Harga sudah termasuk PB1 -\n\n\n\n\x1dV\x00'
+2026-02-19 00:05:06,372 - INFO - 🖨️ Mengirim ke printer: \\ESB-LP225\DRIVER SERVER
+2026-02-19 00:05:06,437 - INFO - ✅ Cetak berhasil.
+2026-02-19 00:05:06,438 - INFO - b'\n\x1ba\x01\x1b!8SUSHI KAI\n\x1b@\x1ba\x01Mall Pollux, Jl. Raya Cikarang -  GF\n\x1b@------------------------------------------------\nNo        : SskX20252511210\nTime In   : 25-11-2025 14:17\nInfo      : EKA DINEIN 18\nCashier   : AYU\n------------------------------------------------\nHOT OCHA                                  12.000\n 1X @12000\nABURI BEEF RAMEN                          32.000\n 1X @32000\n\n------------------------------------------------\n2 item\nSubtotal :                                44.000\n------------------------------------------------\n\x1ba2\x1b!\x18Total :    44.000\n\x1d!\x00\nBCA DEBIT       : 44.000\n\x1b@------------------------------------------------  \n\x1ba\x01- Harga sudah termasuk PB1 -\n\n\n\n\x1dV\x00'
+2026-02-19 00:05:06,438 - INFO - 🧾 History tersimpan. Total job: 1
+2026-02-19 00:05:37,773 - INFO - 🛠 Starting print server ...
+2026-02-19 00:05:37,776 - INFO - 🚀 Print server running on port 9100...
+2026-02-19 00:05:37,785 - INFO - Serving on http://0.0.0.0:5000
+2026-02-19 00:05:55,855 - INFO - 🔗 Connection received from ('127.0.0.1', 15543)
+2026-02-19 00:05:55,859 - INFO - 📄 Deteksi dokumen non-ESC/POS (umum)
+2026-02-19 00:05:55,859 - INFO - 🖨 Mengirim 677 bytes ke printer...
+2026-02-19 00:05:55,859 - INFO - 📃 Print job baru diterima
+2026-02-19 00:05:55,859 - INFO - 📃 Menerima permintaan cetak: b'\n\x1ba\x01\x1b!8SUSHI KAI\n\x1b@\x1ba\x01Mall Pollux, Jl. Raya Cikarang -  GF\n\x1b@------------------------------------------------\nNo        : SskX20252511210\nTime In   : 25-11-2025 14:17\nInfo      : EKA DINEIN 18\nCashier   : AYU\n------------------------------------------------\nHOT OCHA                                  12.000\n 1X @12000\nABURI BEEF RAMEN                          32.000\n 1X @32000\n\n------------------------------------------------\n2 item\nSubtotal :                                44.000\n------------------------------------------------\n\x1ba2\x1b!\x18Total :    44.000\n\x1d!\x00\nBCA DEBIT       : 44.000\n\x1b@------------------------------------------------  \n\x1ba\x01- Harga sudah termasuk PB1 -\n\n\n\n\x1dV\x00'
+2026-02-19 00:05:55,859 - INFO - 🖨️ Mengirim ke printer: \\ESB-LP225\DRIVER SERVER
+2026-02-19 00:05:55,928 - INFO - ✅ Cetak berhasil.
+2026-02-19 00:05:55,929 - INFO - b'\n\x1ba\x01\x1b!8SUSHI KAI\n\x1b@\x1ba\x01Mall Pollux, Jl. Raya Cikarang -  GF\n\x1b@------------------------------------------------\nNo        : SskX20252511210\nTime In   : 25-11-2025 14:17\nInfo      : EKA DINEIN 18\nCashier   : AYU\n------------------------------------------------\nHOT OCHA                                  12.000\n 1X @12000\nABURI BEEF RAMEN                          32.000\n 1X @32000\n\n------------------------------------------------\n2 item\nSubtotal :                                44.000\n------------------------------------------------\n\x1ba2\x1b!\x18Total :    44.000\n\x1d!\x00\nBCA DEBIT       : 44.000\n\x1b@------------------------------------------------  \n\x1ba\x01- Harga sudah termasuk PB1 -\n\n\n\n\x1dV\x00'
+2026-02-19 00:05:55,929 - INFO - 🧾 History tersimpan. Total job: 1
+2026-02-19 00:06:41,616 - INFO - 🛠 Starting print server ...
+2026-02-19 00:06:41,616 - INFO - 🚀 Print server running on port 9100...
+2026-02-19 00:06:41,616 - INFO - Serving on http://0.0.0.0:5000
+2026-02-19 00:06:47,259 - INFO - 🛠 Starting print server ...
+2026-02-19 00:06:47,259 - INFO - 🚀 Print server running on port 9100...
+2026-02-19 00:06:47,267 - INFO - Serving on http://0.0.0.0:5000
+2026-02-19 00:06:55,554 - INFO - 🛠 Starting print server ...
+2026-02-19 00:06:55,554 - INFO - 🚀 Print server running on port 9100...
+2026-02-19 00:06:55,562 - INFO - Serving on http://0.0.0.0:5000
+2026-02-19 00:06:59,212 - INFO - 🔗 Connection received from ('127.0.0.1', 44858)
+2026-02-19 00:06:59,212 - INFO - 📄 Deteksi dokumen non-ESC/POS (umum)
+2026-02-19 00:06:59,212 - INFO - 🖨 Mengirim 677 bytes ke printer...
+2026-02-19 00:06:59,212 - INFO - 📃 Print job baru diterima
+2026-02-19 00:06:59,212 - INFO - 📃 Menerima permintaan cetak: b'\n\x1ba\x01\x1b!8SUSHI KAI\n\x1b@\x1ba\x01Mall Pollux, Jl. Raya Cikarang -  GF\n\x1b@------------------------------------------------\nNo        : SskX20252511210\nTime In   : 25-11-2025 14:17\nInfo      : EKA DINEIN 18\nCashier   : AYU\n------------------------------------------------\nHOT OCHA                                  12.000\n 1X @12000\nABURI BEEF RAMEN                          32.000\n 1X @32000\n\n------------------------------------------------\n2 item\nSubtotal :                                44.000\n------------------------------------------------\n\x1ba2\x1b!\x18Total :    44.000\n\x1d!\x00\nBCA DEBIT       : 44.000\n\x1b@------------------------------------------------  \n\x1ba\x01- Harga sudah termasuk PB1 -\n\n\n\n\x1dV\x00'
+2026-02-19 00:06:59,212 - INFO - 🖨️ Mengirim ke printer: \\ESB-LP225\DRIVER SERVER
+2026-02-19 00:06:59,279 - INFO - ✅ Cetak berhasil.
+2026-02-19 00:06:59,282 - INFO - b'\n\x1ba\x01\x1b!8SUSHI KAI\n\x1b@\x1ba\x01Mall Pollux, Jl. Raya Cikarang -  GF\n\x1b@------------------------------------------------\nNo        : SskX20252511210\nTime In   : 25-11-2025 14:17\nInfo      : EKA DINEIN 18\nCashier   : AYU\n------------------------------------------------\nHOT OCHA                                  12.000\n 1X @12000\nABURI BEEF RAMEN                          32.000\n 1X @32000\n\n------------------------------------------------\n2 item\nSubtotal :                                44.000\n------------------------------------------------\n\x1ba2\x1b!\x18Total :    44.000\n\x1d!\x00\nBCA DEBIT       : 44.000\n\x1b@------------------------------------------------  \n\x1ba\x01- Harga sudah termasuk PB1 -\n\n\n\n\x1dV\x00'
+2026-02-19 00:06:59,282 - INFO - 🧾 History tersimpan. Total job: 1
+2026-02-19 00:07:07,993 - INFO - 🔁 Reprint Job ID: 1 (Count: 1)
+2026-02-19 00:07:07,993 - INFO - 🖨️ Mengirim ke printer: \\ESB-LP225\DRIVER SERVER
+2026-02-19 00:07:08,712 - INFO - 🔁 Reprint Job ID: 1 (Count: 2)
+2026-02-19 00:07:08,712 - INFO - 🖨️ Mengirim ke printer: \\ESB-LP225\DRIVER SERVER
+2026-02-19 00:07:09,115 - INFO - 🔁 Reprint Job ID: 1 (Count: 3)
+2026-02-19 00:07:09,115 - INFO - 🖨️ Mengirim ke printer: \\ESB-LP225\DRIVER SERVER
+2026-02-19 00:07:09,623 - WARNING - ❌ Max reprint reached
+2026-02-19 00:07:25,793 - WARNING - ❌ Max reprint reached
+2026-02-19 00:07:34,503 - INFO - 🔗 Connection received from ('127.0.0.1', 34279)
+2026-02-19 00:07:34,503 - INFO - 📄 Deteksi dokumen non-ESC/POS (umum)
+2026-02-19 00:07:34,503 - INFO - 🖨 Mengirim 677 bytes ke printer...
+2026-02-19 00:07:34,503 - INFO - 📃 Print job baru diterima
+2026-02-19 00:07:34,503 - INFO - 📃 Menerima permintaan cetak: b'\n\x1ba\x01\x1b!8SUSHI KAI\n\x1b@\x1ba\x01Mall Pollux, Jl. Raya Cikarang -  GF\n\x1b@------------------------------------------------\nNo        : SskX20252511210\nTime In   : 25-11-2025 14:17\nInfo      : EKA DINEIN 18\nCashier   : AYU\n------------------------------------------------\nHOT OCHA                                  12.000\n 1X @12000\nABURI BEEF RAMEN                          32.000\n 1X @32000\n\n------------------------------------------------\n2 item\nSubtotal :                                44.000\n------------------------------------------------\n\x1ba2\x1b!\x18Total :    44.000\n\x1d!\x00\nBCA DEBIT       : 44.000\n\x1b@------------------------------------------------  \n\x1ba\x01- Harga sudah termasuk PB1 -\n\n\n\n\x1dV\x00'
+2026-02-19 00:07:34,503 - INFO - 🖨️ Mengirim ke printer: \\ESB-LP225\DRIVER SERVER
+2026-02-19 00:07:34,560 - INFO - ✅ Cetak berhasil.
+2026-02-19 00:07:34,562 - INFO - b'\n\x1ba\x01\x1b!8SUSHI KAI\n\x1b@\x1ba\x01Mall Pollux, Jl. Raya Cikarang -  GF\n\x1b@------------------------------------------------\nNo        : SskX20252511210\nTime In   : 25-11-2025 14:17\nInfo      : EKA DINEIN 18\nCashier   : AYU\n------------------------------------------------\nHOT OCHA                                  12.000\n 1X @12000\nABURI BEEF RAMEN                          32.000\n 1X @32000\n\n------------------------------------------------\n2 item\nSubtotal :                                44.000\n------------------------------------------------\n\x1ba2\x1b!\x18Total :    44.000\n\x1d!\x00\nBCA DEBIT       : 44.000\n\x1b@------------------------------------------------  \n\x1ba\x01- Harga sudah termasuk PB1 -\n\n\n\n\x1dV\x00'
+2026-02-19 00:07:34,562 - INFO - 🧾 History tersimpan. Total job: 2
+2026-02-19 00:07:50,469 - INFO - 🔁 Reprint Job ID: 2 (Count: 1)
+2026-02-19 00:07:50,469 - INFO - 🖨️ Mengirim ke printer: \\ESB-LP225\DRIVER SERVER
+2026-02-19 00:07:58,105 - INFO - 🛠 Starting print server ...
+2026-02-19 00:07:58,107 - INFO - 🚀 Print server running on port 9100...
+2026-02-19 00:07:58,111 - INFO - Serving on http://0.0.0.0:5000
+2026-02-19 00:08:04,606 - INFO - 🔁 Reprint Job ID: 2 (Count: 2)
+2026-02-19 00:08:04,606 - INFO - 🖨️ Mengirim ke printer: \\ESB-LP225\DRIVER SERVER
+2026-02-19 00:08:05,670 - INFO - 🔁 Reprint Job ID: 2 (Count: 3)
+2026-02-19 00:08:05,670 - INFO - 🖨️ Mengirim ke printer: \\ESB-LP225\DRIVER SERVER
+2026-02-19 00:08:06,476 - WARNING - ❌ Max reprint reached
+2026-02-19 00:08:26,882 - INFO - 🔗 Connection received from ('127.0.0.1', 50817)
+2026-02-19 00:08:26,882 - INFO - 📄 Deteksi dokumen non-ESC/POS (umum)
+2026-02-19 00:08:26,882 - INFO - 🖨 Mengirim 677 bytes ke printer...
+2026-02-19 00:08:26,882 - INFO - 📃 Print job baru diterima
+2026-02-19 00:08:26,882 - INFO - 📃 Menerima permintaan cetak: b'\n\x1ba\x01\x1b!8SUSHI KAI\n\x1b@\x1ba\x01Mall Pollux, Jl. Raya Cikarang -  GF\n\x1b@------------------------------------------------\nNo        : SskX20252511210\nTime In   : 25-11-2025 14:17\nInfo      : EKA DINEIN 18\nCashier   : AYU\n------------------------------------------------\nHOT OCHA                                  12.000\n 1X @12000\nABURI BEEF RAMEN                          32.000\n 1X @32000\n\n------------------------------------------------\n2 item\nSubtotal :                                44.000\n------------------------------------------------\n\x1ba2\x1b!\x18Total :    44.000\n\x1d!\x00\nBCA DEBIT       : 44.000\n\x1b@------------------------------------------------  \n\x1ba\x01- Harga sudah termasuk PB1 -\n\n\n\n\x1dV\x00'
+2026-02-19 00:08:26,882 - INFO - 🖨️ Mengirim ke printer: \\ESB-LP225\DRIVER SERVER
+2026-02-19 00:08:26,958 - INFO - ✅ Cetak berhasil.
+2026-02-19 00:08:26,958 - INFO - b'\n\x1ba\x01\x1b!8SUSHI KAI\n\x1b@\x1ba\x01Mall Pollux, Jl. Raya Cikarang -  GF\n\x1b@------------------------------------------------\nNo        : SskX20252511210\nTime In   : 25-11-2025 14:17\nInfo      : EKA DINEIN 18\nCashier   : AYU\n------------------------------------------------\nHOT OCHA                                  12.000\n 1X @12000\nABURI BEEF RAMEN                          32.000\n 1X @32000\n\n------------------------------------------------\n2 item\nSubtotal :                                44.000\n------------------------------------------------\n\x1ba2\x1b!\x18Total :    44.000\n\x1d!\x00\nBCA DEBIT       : 44.000\n\x1b@------------------------------------------------  \n\x1ba\x01- Harga sudah termasuk PB1 -\n\n\n\n\x1dV\x00'
+2026-02-19 00:08:26,958 - INFO - 🧾 History tersimpan. Total job: 3
+2026-02-19 00:08:30,380 - INFO - 🔁 Reprint Job ID: 3 (Count: 1)
+2026-02-19 00:08:30,380 - INFO - 🖨️ Mengirim ke printer: \\ESB-LP225\DRIVER SERVER
+2026-02-19 00:08:37,800 - INFO - 🔁 Reprint Job ID: 3 (Count: 2)
+2026-02-19 00:08:37,800 - INFO - 🖨️ Mengirim ke printer: \\ESB-LP225\DRIVER SERVER
+2026-02-19 00:24:19,810 - INFO - 🛠 Starting print server ...
+2026-02-19 00:24:19,810 - INFO - 🚀 Print server running on port 9100...
+2026-02-19 00:24:19,810 - INFO - Serving on http://0.0.0.0:5000
+2026-02-19 00:24:27,614 - ERROR - ❌ Kesalahan printer: name 'job' is not defined
+2026-02-19 00:32:03,200 - INFO - 🛠 Starting print server ...
+2026-02-19 00:32:03,200 - INFO - 🚀 Print server running on port 9100...
+2026-02-19 00:32:03,209 - INFO - Serving on http://0.0.0.0:5000
+2026-02-19 00:32:10,329 - INFO - 🔁 Reprint Job ID: 3 (Count: 3)
+2026-02-19 00:32:10,329 - INFO - 🖨️ Mengirim ke printer: \\ESB-LP225\DRIVER SERVER
+2026-02-19 00:32:10,528 - INFO - ✅ Cetak berhasil.
+2026-02-19 00:32:10,529 - INFO - b'\x1ba\x01\x1d!\x11*** REPRINT (3) ***\n\x1d!\x00\x1ba\x00\n\n\x1ba\x01\x1b!8SUSHI KAI\n\x1b@\x1ba\x01Mall Pollux, Jl. Raya Cikarang -  GF\n\x1b@------------------------------------------------\nNo        : SskX20252511210\nTime In   : 25-11-2025 14:17\nInfo      : EKA DINEIN 18\nCashier   : AYU\n------------------------------------------------\nHOT OCHA                                  12.000\n 1X @12000\nABURI BEEF RAMEN                          32.000\n 1X @32000\n\n------------------------------------------------\n2 item\nSubtotal :                                44.000\n------------------------------------------------\n\x1ba2\x1b!\x18Total :    44.000\n\x1d!\x00\nBCA DEBIT       : 44.000\n\x1b@------------------------------------------------  \n\x1ba\x01- Harga sudah termasuk PB1 -\n\n\n\n\x1dV\x00'
+2026-02-19 00:32:20,141 - WARNING - ❌ Max reprint reached
+2026-02-19 00:34:05,261 - INFO - 🛠 Starting print server ...
+2026-02-19 00:34:05,262 - INFO - 🚀 Print server running on port 9100...
+2026-02-19 00:34:05,268 - INFO - Serving on http://0.0.0.0:5000
+2026-02-19 00:34:46,490 - INFO - 🛠 Starting print server ...
+2026-02-19 00:34:46,494 - INFO - 🚀 Print server running on port 9100...
+2026-02-19 00:34:46,505 - INFO - Serving on http://0.0.0.0:5000
+2026-02-19 00:35:02,176 - WARNING - ❌ Max reprint reached
+2026-02-19 00:40:11,606 - INFO - 🛠 Starting print server ...
+2026-02-19 00:40:11,606 - INFO - 🚀 Print server running on port 9100...
+2026-02-19 00:40:11,612 - INFO - Serving on http://0.0.0.0:5000
+2026-02-19 00:40:41,557 - INFO - 🔁 Reprint Job ID: 3 (Count: 4)
+2026-02-19 00:40:41,558 - INFO - 🖨️ Mengirim ke printer: \\ESB-LP225\DRIVER SERVER
+2026-02-19 00:40:41,705 - INFO - ✅ Cetak berhasil.
+2026-02-19 00:40:41,705 - INFO - b'\x1ba\x01\x1d!\x11*** REPRINT (4) ***\n\x1d!\x00\x1ba\x00\n\n\x1ba\x01\x1b!8SUSHI KAI\n\x1b@\x1ba\x01Mall Pollux, Jl. Raya Cikarang -  GF\n\x1b@------------------------------------------------\nNo        : SskX20252511210\nTime In   : 25-11-2025 14:17\nInfo      : EKA DINEIN 18\nCashier   : AYU\n------------------------------------------------\nHOT OCHA                                  12.000\n 1X @12000\nABURI BEEF RAMEN                          32.000\n 1X @32000\n\n------------------------------------------------\n2 item\nSubtotal :                                44.000\n------------------------------------------------\n\x1ba2\x1b!\x18Total :    44.000\n\x1d!\x00\nBCA DEBIT       : 44.000\n\x1b@------------------------------------------------  \n\x1ba\x01- Harga sudah termasuk PB1 -\n\n\n\n\x1dV\x00'
+2026-02-19 00:40:42,594 - INFO - 🔁 Reprint Job ID: 3 (Count: 5)
+2026-02-19 00:40:42,595 - INFO - 🖨️ Mengirim ke printer: \\ESB-LP225\DRIVER SERVER
+2026-02-19 00:40:42,664 - INFO - ✅ Cetak berhasil.
+2026-02-19 00:40:42,668 - INFO - b'\x1ba\x01\x1d!\x11*** REPRINT (5) ***\n\x1d!\x00\x1ba\x00\n\n\x1ba\x01\x1b!8SUSHI KAI\n\x1b@\x1ba\x01Mall Pollux, Jl. Raya Cikarang -  GF\n\x1b@------------------------------------------------\nNo        : SskX20252511210\nTime In   : 25-11-2025 14:17\nInfo      : EKA DINEIN 18\nCashier   : AYU\n------------------------------------------------\nHOT OCHA                                  12.000\n 1X @12000\nABURI BEEF RAMEN                          32.000\n 1X @32000\n\n------------------------------------------------\n2 item\nSubtotal :                                44.000\n------------------------------------------------\n\x1ba2\x1b!\x18Total :    44.000\n\x1d!\x00\nBCA DEBIT       : 44.000\n\x1b@------------------------------------------------  \n\x1ba\x01- Harga sudah termasuk PB1 -\n\n\n\n\x1dV\x00'
+2026-02-19 00:40:43,339 - WARNING - ❌ Max reprint reached
+2026-02-19 00:47:20,882 - INFO - 🛠 Starting print server ...
+2026-02-19 00:47:20,882 - INFO - 🚀 Print server running on port 9100...
+2026-02-19 00:47:20,890 - INFO - Serving on http://0.0.0.0:5000
+2026-02-19 00:47:23,368 - ERROR - Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Python312\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PIDP-07\Documents\EKADATA\PROJ\PYTHON\epp.py", line 301, in dashboard
+    return render_template("dashboard.html", status=status, config=config, logs=logs, printers=printers, default_printer=default_printer, history=history)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\flask\templating.py", line 150, in render_template
+    return _render(app, template, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\flask\templating.py", line 131, in _render
+    rv = template.render(context)
+         ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\jinja2\environment.py", line 1295, in render
+    self.environment.handle_exception()
+  File "C:\Python312\Lib\site-packages\jinja2\environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\PIDP-07\Documents\EKADATA\PROJ\PYTHON\templates\dashboard.html", line 208, in top-level template code
+    {% if MAX_REPRINT != 0 and job.print_count >= MAX_REPRINT %}
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+jinja2.exceptions.UndefinedError: 'MAX_REPRINT' is undefined
+2026-02-19 00:50:04,034 - INFO - 🛠 Starting print server ...
+2026-02-19 00:50:04,038 - INFO - 🚀 Print server running on port 9100...
+2026-02-19 00:50:04,042 - INFO - Serving on http://0.0.0.0:5000
+2026-02-19 00:50:06,561 - ERROR - Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Python312\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PIDP-07\Documents\EKADATA\PROJ\PYTHON\epp.py", line 301, in dashboard
+    return render_template("dashboard.html", status=status, config=config, logs=logs, printers=printers, default_printer=default_printer, history=history)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\flask\templating.py", line 150, in render_template
+    return _render(app, template, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\flask\templating.py", line 131, in _render
+    rv = template.render(context)
+         ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\jinja2\environment.py", line 1295, in render
+    self.environment.handle_exception()
+  File "C:\Python312\Lib\site-packages\jinja2\environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\PIDP-07\Documents\EKADATA\PROJ\PYTHON\templates\dashboard.html", line 219, in top-level template code
+    {% if job.print_count >= MAX_REPRINT %}
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+jinja2.exceptions.UndefinedError: 'MAX_REPRINT' is undefined
+2026-02-19 00:50:58,471 - INFO - 🛠 Starting print server ...
+2026-02-19 00:50:58,471 - INFO - 🚀 Print server running on port 9100...
+2026-02-19 00:50:58,481 - INFO - Serving on http://0.0.0.0:5000
+2026-02-19 00:54:23,513 - INFO - 🛠 Starting print server ...
+2026-02-19 00:54:23,521 - INFO - 🚀 Print server running on port 9100...
+2026-02-19 00:54:23,525 - INFO - Serving on http://0.0.0.0:5000
+2026-02-19 00:55:12,908 - INFO - 🛠 Starting print server ...
+2026-02-19 00:55:12,914 - INFO - 🚀 Print server running on port 9100...
+2026-02-19 00:55:12,963 - INFO - Serving on http://0.0.0.0:5000
+2026-02-19 00:55:46,478 - INFO - 🔁 Reprint Job ID: 3 (Count: 6)
+2026-02-19 00:55:46,478 - INFO - 🖨️ Mengirim ke printer: \\ESB-LP225\DRIVER SERVER
+2026-02-19 00:55:46,670 - INFO - ✅ Cetak berhasil.
+2026-02-19 00:55:46,670 - INFO - b'\x1ba\x01\x1d!\x11*** REPRINT (6) ***\n\x1d!\x00\x1ba\x00\n\n\x1ba\x01\x1b!8SUSHI KAI\n\x1b@\x1ba\x01Mall Pollux, Jl. Raya Cikarang -  GF\n\x1b@------------------------------------------------\nNo        : SskX20252511210\nTime In   : 25-11-2025 14:17\nInfo      : EKA DINEIN 18\nCashier   : AYU\n------------------------------------------------\nHOT OCHA                                  12.000\n 1X @12000\nABURI BEEF RAMEN                          32.000\n 1X @32000\n\n------------------------------------------------\n2 item\nSubtotal :                                44.000\n------------------------------------------------\n\x1ba2\x1b!\x18Total :    44.000\n\x1d!\x00\nBCA DEBIT       : 44.000\n\x1b@------------------------------------------------  \n\x1ba\x01- Harga sudah termasuk PB1 -\n\n\n\n\x1dV\x00'
+2026-02-19 00:59:01,654 - WARNING - ❌ Max reprint reached
+2026-02-19 00:59:24,226 - WARNING - ❌ Max reprint reached
+2026-02-19 01:00:01,393 - INFO - 🔁 Reprint Job ID: 3 (Count: 7)
+2026-02-19 01:00:01,395 - INFO - 🖨️ Mengirim ke printer: \\ESB-LP225\DRIVER SERVER
+2026-02-19 01:00:01,534 - INFO - ✅ Cetak berhasil.
+2026-02-19 01:00:01,535 - INFO - b'\x1ba\x01\x1d!\x11*** REPRINT (7) ***\n\x1d!\x00\x1ba\x00\n\n\x1ba\x01\x1b!8SUSHI KAI\n\x1b@\x1ba\x01Mall Pollux, Jl. Raya Cikarang -  GF\n\x1b@------------------------------------------------\nNo        : SskX20252511210\nTime In   : 25-11-2025 14:17\nInfo      : EKA DINEIN 18\nCashier   : AYU\n------------------------------------------------\nHOT OCHA                                  12.000\n 1X @12000\nABURI BEEF RAMEN                          32.000\n 1X @32000\n\n------------------------------------------------\n2 item\nSubtotal :                                44.000\n------------------------------------------------\n\x1ba2\x1b!\x18Total :    44.000\n\x1d!\x00\nBCA DEBIT       : 44.000\n\x1b@------------------------------------------------  \n\x1ba\x01- Harga sudah termasuk PB1 -\n\n\n\n\x1dV\x00'
+2026-02-19 01:02:32,769 - INFO - 🔁 Reprint Job ID: 3 (Count: 8)
+2026-02-19 01:02:32,769 - INFO - 🖨️ Mengirim ke printer: \\ESB-LP225\DRIVER SERVER
+2026-02-19 01:02:32,874 - INFO - ✅ Cetak berhasil.
+2026-02-19 01:02:32,874 - INFO - b'\x1ba\x01\x1d!\x11*** REPRINT (8) ***\n\x1d!\x00\x1ba\x00\n\n\x1ba\x01\x1b!8SUSHI KAI\n\x1b@\x1ba\x01Mall Pollux, Jl. Raya Cikarang -  GF\n\x1b@------------------------------------------------\nNo        : SskX20252511210\nTime In   : 25-11-2025 14:17\nInfo      : EKA DINEIN 18\nCashier   : AYU\n------------------------------------------------\nHOT OCHA                                  12.000\n 1X @12000\nABURI BEEF RAMEN                          32.000\n 1X @32000\n\n------------------------------------------------\n2 item\nSubtotal :                                44.000\n------------------------------------------------\n\x1ba2\x1b!\x18Total :    44.000\n\x1d!\x00\nBCA DEBIT       : 44.000\n\x1b@------------------------------------------------  \n\x1ba\x01- Harga sudah termasuk PB1 -\n\n\n\n\x1dV\x00'
+2026-02-19 01:02:47,572 - INFO - 🛠 Starting print server ...
+2026-02-19 01:02:47,574 - INFO - 🚀 Print server running on port 9100...
+2026-02-19 01:02:47,580 - INFO - Serving on http://0.0.0.0:5000
+2026-02-19 01:02:59,363 - WARNING - ❌ Max reprint reached
+2026-02-19 01:03:00,891 - WARNING - ❌ Max reprint reached
+2026-02-19 01:03:01,151 - WARNING - ❌ Max reprint reached
+2026-02-19 01:03:01,370 - WARNING - ❌ Max reprint reached
+2026-02-19 01:09:29,577 - INFO - 🛠 Starting print server ...
+2026-02-19 01:09:29,580 - INFO - 🚀 Print server running on port 9100...
+2026-02-19 01:09:29,588 - INFO - Serving on http://0.0.0.0:5000
+2026-02-19 01:14:48,787 - INFO - 🛠 Starting print server ...
+2026-02-19 01:14:48,791 - INFO - 🚀 Print server running on port 9100...
+2026-02-19 01:14:48,803 - INFO - Serving on http://0.0.0.0:5000
+2026-02-19 01:15:18,314 - INFO - 🔗 Connection received from ('127.0.0.1', 57318)
+2026-02-19 01:15:18,318 - INFO - 📄 Deteksi dokumen non-ESC/POS (umum)
+2026-02-19 01:15:18,318 - INFO - 🖨 Mengirim 535 bytes ke printer...
+2026-02-19 01:15:18,318 - INFO - 📃 Print job baru diterima
+2026-02-19 01:15:18,318 - INFO - 📃 Menerima permintaan cetak: b'\n\x1ba\x01\x1b!8WARUNK FAUGET\n\x1b@\x1ba\x01SUMMARECON MALL BEKASI 2\n\x1b@--------------------------------\nNo        : KYCC2026020300\nTanggal   : 03-02-2026\nTime In   : 03-02-2026 14:00\n--------------------------------\nPaket Ayam Bakar          25.000\nES JERUK                  13.500\nES JERUK                  13.500\n\n--------------------------------\n2 item\nSubtotal :                38.000\n--------------------------------\n\x1ba2\x1b!\x18Grand Total :    38.000\n\x1d!\x00\nCash       : 40.000\nKembalian  :  2.000\n\x1b@--------------------------------\n\x1ba\x01- Terima kasih -\n\n\n'
+2026-02-19 01:15:18,318 - INFO - 🖨️ Mengirim ke printer: \\ESB-LP225\DRIVER SERVER
+2026-02-19 01:15:18,443 - INFO - ✅ Cetak berhasil.
+2026-02-19 01:15:18,450 - INFO - b'\n\x1ba\x01\x1b!8WARUNK FAUGET\n\x1b@\x1ba\x01SUMMARECON MALL BEKASI 2\n\x1b@--------------------------------\nNo        : KYCC2026020300\nTanggal   : 03-02-2026\nTime In   : 03-02-2026 14:00\n--------------------------------\nPaket Ayam Bakar          25.000\nES JERUK                  13.500\nES JERUK                  13.500\n\n--------------------------------\n2 item\nSubtotal :                38.000\n--------------------------------\n\x1ba2\x1b!\x18Grand Total :    38.000\n\x1d!\x00\nCash       : 40.000\nKembalian  :  2.000\n\x1b@--------------------------------\n\x1ba\x01- Terima kasih -\n\n\n'
+2026-02-19 01:15:18,452 - INFO - 🧾 History tersimpan. Total job: 4
+2026-02-19 01:20:30,998 - INFO - 🛠 Starting print server ...
+2026-02-19 01:20:30,998 - INFO - 🚀 Print server running on port 9100...
+2026-02-19 01:20:31,008 - INFO - Serving on http://0.0.0.0:5000
+2026-02-19 01:21:39,154 - INFO - 🛠 Starting print server ...
+2026-02-19 01:21:39,154 - INFO - 🚀 Print server running on port 9100...
+2026-02-19 01:21:39,167 - INFO - Serving on http://0.0.0.0:5000
+2026-02-19 01:24:19,993 - INFO - 🛠 Starting print server ...
+2026-02-19 01:24:19,993 - INFO - 🚀 Print server running on port 9100...
+2026-02-19 01:24:20,004 - INFO - Serving on http://0.0.0.0:5000
+2026-02-19 01:27:49,204 - INFO - 🛠 Starting print server ...
+2026-02-19 01:27:49,204 - INFO - 🚀 Print server running on port 9100...
+2026-02-19 01:27:49,208 - INFO - Serving on http://0.0.0.0:5000
+2026-02-19 01:28:38,099 - INFO - 🛠 Starting print server ...
+2026-02-19 01:28:38,099 - INFO - 🚀 Print server running on port 9100...
+2026-02-19 01:28:38,113 - INFO - Serving on http://0.0.0.0:5000
+2026-02-19 01:29:35,159 - INFO - 🛠 Starting print server ...
+2026-02-19 01:29:35,159 - INFO - 🚀 Print server running on port 9100...
+2026-02-19 01:29:35,167 - INFO - Serving on http://0.0.0.0:5000
+2026-02-19 01:30:09,592 - INFO - 🔁 Reprint Job ID: 2 (Count: 4)
+2026-02-19 01:30:09,593 - INFO - 🖨️ Mengirim ke printer: \\ESB-LP225\DRIVER SERVER
+2026-02-19 01:30:09,745 - INFO - ✅ Cetak berhasil.
+2026-02-19 01:30:09,745 - INFO - b'\x1ba\x01\x1d!\x11*** REPRINT (4) ***\n\x1d!\x00\x1ba\x00\n\n\x1ba\x01\x1b!8SUSHI KAI\n\x1b@\x1ba\x01Mall Pollux, Jl. Raya Cikarang -  GF\n\x1b@------------------------------------------------\nNo        : SskX20252511210\nTime In   : 25-11-2025 14:17\nInfo      : EKA DINEIN 18\nCashier   : AYU\n------------------------------------------------\nHOT OCHA                                  12.000\n 1X @12000\nABURI BEEF RAMEN                          32.000\n 1X @32000\n\n------------------------------------------------\n2 item\nSubtotal :                                44.000\n------------------------------------------------\n\x1ba2\x1b!\x18Total :    44.000\n\x1d!\x00\nBCA DEBIT       : 44.000\n\x1b@------------------------------------------------  \n\x1ba\x01- Harga sudah termasuk PB1 -\n\n\n\n\x1dV\x00'
+2026-02-19 01:30:10,469 - INFO - 🔁 Reprint Job ID: 2 (Count: 5)
+2026-02-19 01:30:10,469 - INFO - 🖨️ Mengirim ke printer: \\ESB-LP225\DRIVER SERVER
+2026-02-19 01:30:10,529 - INFO - ✅ Cetak berhasil.
+2026-02-19 01:30:10,529 - INFO - b'\x1ba\x01\x1d!\x11*** REPRINT (5) ***\n\x1d!\x00\x1ba\x00\n\n\x1ba\x01\x1b!8SUSHI KAI\n\x1b@\x1ba\x01Mall Pollux, Jl. Raya Cikarang -  GF\n\x1b@------------------------------------------------\nNo        : SskX20252511210\nTime In   : 25-11-2025 14:17\nInfo      : EKA DINEIN 18\nCashier   : AYU\n------------------------------------------------\nHOT OCHA                                  12.000\n 1X @12000\nABURI BEEF RAMEN                          32.000\n 1X @32000\n\n------------------------------------------------\n2 item\nSubtotal :                                44.000\n------------------------------------------------\n\x1ba2\x1b!\x18Total :    44.000\n\x1d!\x00\nBCA DEBIT       : 44.000\n\x1b@------------------------------------------------  \n\x1ba\x01- Harga sudah termasuk PB1 -\n\n\n\n\x1dV\x00'
+2026-02-19 01:30:42,817 - INFO - 🔁 Reprint Job ID: 4 (Count: 1)
+2026-02-19 01:30:42,817 - INFO - 🖨️ Mengirim ke printer: \\ESB-LP225\DRIVER SERVER
+2026-02-19 01:30:42,917 - INFO - ✅ Cetak berhasil.
+2026-02-19 01:30:42,918 - INFO - b'\x1ba\x01\x1d!\x11*** REPRINT (1) ***\n\x1d!\x00\x1ba\x00\n\n\x1ba\x01\x1b!8WARUNK FAUGET\n\x1b@\x1ba\x01SUMMARECON MALL BEKASI 2\n\x1b@--------------------------------\nNo        : KYCC2026020300\nTanggal   : 03-02-2026\nTime In   : 03-02-2026 14:00\n--------------------------------\nPaket Ayam Bakar          25.000\nES JERUK                  13.500\nES JERUK                  13.500\n\n--------------------------------\n2 item\nSubtotal :                38.000\n--------------------------------\n\x1ba2\x1b!\x18Grand Total :    38.000\n\x1d!\x00\nCash       : 40.000\nKembalian  :  2.000\n\x1b@--------------------------------\n\x1ba\x01- Terima kasih -\n\n\n'
+2026-02-19 01:30:43,530 - INFO - 🔁 Reprint Job ID: 4 (Count: 2)
+2026-02-19 01:30:43,530 - INFO - 🖨️ Mengirim ke printer: \\ESB-LP225\DRIVER SERVER
+2026-02-19 01:30:43,649 - INFO - ✅ Cetak berhasil.
+2026-02-19 01:30:43,651 - INFO - b'\x1ba\x01\x1d!\x11*** REPRINT (2) ***\n\x1d!\x00\x1ba\x00\n\n\x1ba\x01\x1b!8WARUNK FAUGET\n\x1b@\x1ba\x01SUMMARECON MALL BEKASI 2\n\x1b@--------------------------------\nNo        : KYCC2026020300\nTanggal   : 03-02-2026\nTime In   : 03-02-2026 14:00\n--------------------------------\nPaket Ayam Bakar          25.000\nES JERUK                  13.500\nES JERUK                  13.500\n\n--------------------------------\n2 item\nSubtotal :                38.000\n--------------------------------\n\x1ba2\x1b!\x18Grand Total :    38.000\n\x1d!\x00\nCash       : 40.000\nKembalian  :  2.000\n\x1b@--------------------------------\n\x1ba\x01- Terima kasih -\n\n\n'
+2026-02-19 01:30:44,176 - INFO - 🔁 Reprint Job ID: 4 (Count: 3)
+2026-02-19 01:30:44,177 - INFO - 🖨️ Mengirim ke printer: \\ESB-LP225\DRIVER SERVER
+2026-02-19 01:30:44,253 - INFO - ✅ Cetak berhasil.
+2026-02-19 01:30:44,253 - INFO - b'\x1ba\x01\x1d!\x11*** REPRINT (3) ***\n\x1d!\x00\x1ba\x00\n\n\x1ba\x01\x1b!8WARUNK FAUGET\n\x1b@\x1ba\x01SUMMARECON MALL BEKASI 2\n\x1b@--------------------------------\nNo        : KYCC2026020300\nTanggal   : 03-02-2026\nTime In   : 03-02-2026 14:00\n--------------------------------\nPaket Ayam Bakar          25.000\nES JERUK                  13.500\nES JERUK                  13.500\n\n--------------------------------\n2 item\nSubtotal :                38.000\n--------------------------------\n\x1ba2\x1b!\x18Grand Total :    38.000\n\x1d!\x00\nCash       : 40.000\nKembalian  :  2.000\n\x1b@--------------------------------\n\x1ba\x01- Terima kasih -\n\n\n'
+2026-02-19 01:30:44,700 - INFO - 🔁 Reprint Job ID: 4 (Count: 4)
+2026-02-19 01:30:44,700 - INFO - 🖨️ Mengirim ke printer: \\ESB-LP225\DRIVER SERVER
+2026-02-19 01:30:44,760 - INFO - ✅ Cetak berhasil.
+2026-02-19 01:30:44,762 - INFO - b'\x1ba\x01\x1d!\x11*** REPRINT (4) ***\n\x1d!\x00\x1ba\x00\n\n\x1ba\x01\x1b!8WARUNK FAUGET\n\x1b@\x1ba\x01SUMMARECON MALL BEKASI 2\n\x1b@--------------------------------\nNo        : KYCC2026020300\nTanggal   : 03-02-2026\nTime In   : 03-02-2026 14:00\n--------------------------------\nPaket Ayam Bakar          25.000\nES JERUK                  13.500\nES JERUK                  13.500\n\n--------------------------------\n2 item\nSubtotal :                38.000\n--------------------------------\n\x1ba2\x1b!\x18Grand Total :    38.000\n\x1d!\x00\nCash       : 40.000\nKembalian  :  2.000\n\x1b@--------------------------------\n\x1ba\x01- Terima kasih -\n\n\n'
+2026-02-19 01:30:45,833 - INFO - 🔁 Reprint Job ID: 4 (Count: 5)
+2026-02-19 01:30:45,833 - INFO - 🖨️ Mengirim ke printer: \\ESB-LP225\DRIVER SERVER
+2026-02-19 01:30:45,930 - INFO - ✅ Cetak berhasil.
+2026-02-19 01:30:45,930 - INFO - b'\x1ba\x01\x1d!\x11*** REPRINT (5) ***\n\x1d!\x00\x1ba\x00\n\n\x1ba\x01\x1b!8WARUNK FAUGET\n\x1b@\x1ba\x01SUMMARECON MALL BEKASI 2\n\x1b@--------------------------------\nNo        : KYCC2026020300\nTanggal   : 03-02-2026\nTime In   : 03-02-2026 14:00\n--------------------------------\nPaket Ayam Bakar          25.000\nES JERUK                  13.500\nES JERUK                  13.500\n\n--------------------------------\n2 item\nSubtotal :                38.000\n--------------------------------\n\x1ba2\x1b!\x18Grand Total :    38.000\n\x1d!\x00\nCash       : 40.000\nKembalian  :  2.000\n\x1b@--------------------------------\n\x1ba\x01- Terima kasih -\n\n\n'
+2026-02-19 01:33:08,808 - INFO - 🛠 Starting print server ...
+2026-02-19 01:33:08,814 - INFO - 🚀 Print server running on port 9100...
+2026-02-19 01:33:08,822 - INFO - Serving on http://0.0.0.0:5000
+2026-02-19 01:38:28,614 - INFO - 🛠 Starting print server ...
+2026-02-19 01:38:28,614 - INFO - 🚀 Print server running on port 9100...
+2026-02-19 01:38:28,623 - INFO - Serving on http://0.0.0.0:5000
+2026-02-19 01:38:44,545 - INFO - 🛠 Starting print server ...
+2026-02-19 01:38:44,550 - INFO - 🚀 Print server running on port 9100...
+2026-02-19 01:38:44,555 - INFO - Serving on http://0.0.0.0:5000
+2026-02-19 01:43:35,767 - INFO - 🛠 Starting print server ...
+2026-02-19 01:43:35,767 - INFO - 🚀 Print server running on port 9100...
+2026-02-19 01:43:35,777 - INFO - Serving on http://0.0.0.0:5000
+2026-02-19 01:43:40,944 - ERROR - Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Python312\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PIDP-07\Documents\EKADATA\PROJ\PYTHON\epp.py", line 301, in dashboard
+    return render_template("dashboard.html", status=status, config=config, logs=logs, printers=printers, default_printer=default_printer, history=history)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\flask\templating.py", line 150, in render_template
+    return _render(app, template, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\flask\templating.py", line 131, in _render
+    rv = template.render(context)
+         ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\jinja2\environment.py", line 1295, in render
+    self.environment.handle_exception()
+  File "C:\Python312\Lib\site-packages\jinja2\environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\PIDP-07\Documents\EKADATA\PROJ\PYTHON\templates\dashboard.html", line 205, in top-level template code
+    <td>{{ job.timestamp.strftime("%Y-%m-%d %H:%M:%S") }}</td>
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\jinja2\utils.py", line 92, in from_obj
+    if hasattr(obj, "jinja_pass_arg"):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+jinja2.exceptions.UndefinedError: 'str object' has no attribute 'strftime'
+2026-02-19 02:07:07,159 - INFO - 🛠 Starting print server ...
+2026-02-19 02:07:07,164 - INFO - 🚀 Print server running on port 9100...
+2026-02-19 02:07:07,169 - INFO - Serving on http://0.0.0.0:5000
+2026-02-19 02:08:44,386 - INFO - 🔁 Reprint Job ID: 4 (Count: 6)
+2026-02-19 02:08:44,386 - INFO - 🖨️ Mengirim ke printer: \\ESB-LP225\DRIVER SERVER
+2026-02-19 02:08:44,573 - INFO - ✅ Cetak berhasil.
+2026-02-19 02:08:44,574 - INFO - b'\x1ba\x01\x1d!\x11*** REPRINT (6) ***\n\x1d!\x00\x1ba\x00\n\n\x1ba\x01\x1b!8WARUNK FAUGET\n\x1b@\x1ba\x01SUMMARECON MALL BEKASI 2\n\x1b@--------------------------------\nNo        : KYCC2026020300\nTanggal   : 03-02-2026\nTime In   : 03-02-2026 14:00\n--------------------------------\nPaket Ayam Bakar          25.000\nES JERUK                  13.500\nES JERUK                  13.500\n\n--------------------------------\n2 item\nSubtotal :                38.000\n--------------------------------\n\x1ba2\x1b!\x18Grand Total :    38.000\n\x1d!\x00\nCash       : 40.000\nKembalian  :  2.000\n\x1b@--------------------------------\n\x1ba\x01- Terima kasih -\n\n\n'
+2026-02-19 02:08:47,263 - INFO - 🔁 Reprint Job ID: 3 (Count: 9)
+2026-02-19 02:08:47,263 - INFO - 🖨️ Mengirim ke printer: \\ESB-LP225\DRIVER SERVER
+2026-02-19 02:08:47,356 - INFO - ✅ Cetak berhasil.
+2026-02-19 02:08:47,356 - INFO - b'\x1ba\x01\x1d!\x11*** REPRINT (9) ***\n\x1d!\x00\x1ba\x00\n\n\x1ba\x01\x1b!8SUSHI KAI\n\x1b@\x1ba\x01Mall Pollux, Jl. Raya Cikarang -  GF\n\x1b@------------------------------------------------\nNo        : SskX20252511210\nTime In   : 25-11-2025 14:17\nInfo      : EKA DINEIN 18\nCashier   : AYU\n------------------------------------------------\nHOT OCHA                                  12.000\n 1X @12000\nABURI BEEF RAMEN                          32.000\n 1X @32000\n\n------------------------------------------------\n2 item\nSubtotal :                                44.000\n------------------------------------------------\n\x1ba2\x1b!\x18Total :    44.000\n\x1d!\x00\nBCA DEBIT       : 44.000\n\x1b@------------------------------------------------  \n\x1ba\x01- Harga sudah termasuk PB1 -\n\n\n\n\x1dV\x00'
+2026-02-19 04:06:54,722 - INFO - 🛠 Starting print server ...
+2026-02-19 04:06:54,722 - INFO - 🚀 Print server running on port 9100...
+2026-02-19 04:06:54,731 - INFO - Serving on http://0.0.0.0:5000
+2026-02-19 04:09:32,296 - INFO - 🛠 Starting print server ...
+2026-02-19 04:09:32,300 - INFO - 🚀 Print server running on port 9100...
+2026-02-19 04:09:32,316 - INFO - Serving on http://0.0.0.0:5000
+2026-02-19 04:09:47,476 - INFO - 🔁 Reprint Job ID: 2 (Count: 6)
+2026-02-19 04:09:47,476 - INFO - 🖨️ Mengirim ke printer: \\ESB-LP225\DRIVER SERVER
+2026-02-19 04:09:47,817 - INFO - ✅ Cetak berhasil.
+2026-02-19 04:09:47,817 - INFO - b'\x1ba\x01\x1d!\x11*** REPRINT (6) ***\n\x1d!\x00\x1ba\x00\n\n\x1ba\x01\x1b!8SUSHI KAI\n\x1b@\x1ba\x01Mall Pollux, Jl. Raya Cikarang -  GF\n\x1b@------------------------------------------------\nNo        : SskX20252511210\nTime In   : 25-11-2025 14:17\nInfo      : EKA DINEIN 18\nCashier   : AYU\n------------------------------------------------\nHOT OCHA                                  12.000\n 1X @12000\nABURI BEEF RAMEN                          32.000\n 1X @32000\n\n------------------------------------------------\n2 item\nSubtotal :                                44.000\n------------------------------------------------\n\x1ba2\x1b!\x18Total :    44.000\n\x1d!\x00\nBCA DEBIT       : 44.000\n\x1b@------------------------------------------------  \n\x1ba\x01- Harga sudah termasuk PB1 -\n\n\n\n\x1dV\x00'
+2026-02-19 04:17:29,312 - INFO - 🔁 Reprint Job ID: 1 (Count: 4)
+2026-02-19 04:17:29,314 - INFO - 🖨️ Mengirim ke printer: \\ESB-LP225\DRIVER SERVER
+2026-02-19 04:17:29,486 - INFO - ✅ Cetak berhasil.
+2026-02-19 04:17:29,487 - INFO - b'\x1ba\x01\x1d!\x11*** REPRINT (4) ***\n\x1d!\x00\x1ba\x00\n\n\x1ba\x01\x1b!8SUSHI KAI\n\x1b@\x1ba\x01Mall Pollux, Jl. Raya Cikarang -  GF\n\x1b@------------------------------------------------\nNo        : SskX20252511210\nTime In   : 25-11-2025 14:17\nInfo      : EKA DINEIN 18\nCashier   : AYU\n------------------------------------------------\nHOT OCHA                                  12.000\n 1X @12000\nABURI BEEF RAMEN                          32.000\n 1X @32000\n\n------------------------------------------------\n2 item\nSubtotal :                                44.000\n------------------------------------------------\n\x1ba2\x1b!\x18Total :    44.000\n\x1d!\x00\nBCA DEBIT       : 44.000\n\x1b@------------------------------------------------  \n\x1ba\x01- Harga sudah termasuk PB1 -\n\n\n\n\x1dV\x00'
+2026-02-19 04:17:30,270 - INFO - 🔁 Reprint Job ID: 1 (Count: 5)
+2026-02-19 04:17:30,271 - INFO - 🖨️ Mengirim ke printer: \\ESB-LP225\DRIVER SERVER
+2026-02-19 04:17:30,361 - INFO - ✅ Cetak berhasil.
+2026-02-19 04:17:30,361 - INFO - b'\x1ba\x01\x1d!\x11*** REPRINT (5) ***\n\x1d!\x00\x1ba\x00\n\n\x1ba\x01\x1b!8SUSHI KAI\n\x1b@\x1ba\x01Mall Pollux, Jl. Raya Cikarang -  GF\n\x1b@------------------------------------------------\nNo        : SskX20252511210\nTime In   : 25-11-2025 14:17\nInfo      : EKA DINEIN 18\nCashier   : AYU\n------------------------------------------------\nHOT OCHA                                  12.000\n 1X @12000\nABURI BEEF RAMEN                          32.000\n 1X @32000\n\n------------------------------------------------\n2 item\nSubtotal :                                44.000\n------------------------------------------------\n\x1ba2\x1b!\x18Total :    44.000\n\x1d!\x00\nBCA DEBIT       : 44.000\n\x1b@------------------------------------------------  \n\x1ba\x01- Harga sudah termasuk PB1 -\n\n\n\n\x1dV\x00'
+2026-02-19 04:17:31,852 - INFO - 🔁 Reprint Job ID: 1 (Count: 6)
+2026-02-19 04:17:31,852 - INFO - 🖨️ Mengirim ke printer: \\ESB-LP225\DRIVER SERVER
+2026-02-19 04:17:31,935 - INFO - ✅ Cetak berhasil.
+2026-02-19 04:17:31,935 - INFO - b'\x1ba\x01\x1d!\x11*** REPRINT (6) ***\n\x1d!\x00\x1ba\x00\n\n\x1ba\x01\x1b!8SUSHI KAI\n\x1b@\x1ba\x01Mall Pollux, Jl. Raya Cikarang -  GF\n\x1b@------------------------------------------------\nNo        : SskX20252511210\nTime In   : 25-11-2025 14:17\nInfo      : EKA DINEIN 18\nCashier   : AYU\n------------------------------------------------\nHOT OCHA                                  12.000\n 1X @12000\nABURI BEEF RAMEN                          32.000\n 1X @32000\n\n------------------------------------------------\n2 item\nSubtotal :                                44.000\n------------------------------------------------\n\x1ba2\x1b!\x18Total :    44.000\n\x1d!\x00\nBCA DEBIT       : 44.000\n\x1b@------------------------------------------------  \n\x1ba\x01- Harga sudah termasuk PB1 -\n\n\n\n\x1dV\x00'
+2026-02-19 10:15:31,161 - INFO - 🛠 Starting print server ...
+2026-02-19 10:15:31,182 - INFO - Serving on http://0.0.0.0:5000
+2026-02-19 10:15:31,186 - INFO - 🚀 Print server running on port 9100...
+2026-02-19 10:15:51,783 - INFO - 🔁 Reprint Job ID: 4 (Count: 7)
+2026-02-19 10:15:51,784 - INFO - 🖨️ Mengirim ke printer: \\ESB-LP225\DRIVER SERVER
+2026-02-19 10:15:51,908 - INFO - ✅ Cetak berhasil.
+2026-02-19 10:15:51,908 - INFO - b'\x1ba\x01\x1d!\x11*** REPRINT (7) ***\n\x1d!\x00\x1ba\x00\n\n\x1ba\x01\x1b!8WARUNK FAUGET\n\x1b@\x1ba\x01SUMMARECON MALL BEKASI 2\n\x1b@--------------------------------\nNo        : KYCC2026020300\nTanggal   : 03-02-2026\nTime In   : 03-02-2026 14:00\n--------------------------------\nPaket Ayam Bakar          25.000\nES JERUK                  13.500\nES JERUK                  13.500\n\n--------------------------------\n2 item\nSubtotal :                38.000\n--------------------------------\n\x1ba2\x1b!\x18Grand Total :    38.000\n\x1d!\x00\nCash       : 40.000\nKembalian  :  2.000\n\x1b@--------------------------------\n\x1ba\x01- Terima kasih -\n\n\n'
+2026-02-19 10:22:19,816 - INFO - 🛠 Starting print server ...
+2026-02-19 10:22:19,825 - INFO - 🚀 Print server running on port 9100...
+2026-02-19 10:22:19,828 - INFO - Serving on http://0.0.0.0:5000
+2026-02-20 14:00:39,526 - INFO - 🛠 Starting print server ...
+2026-02-20 14:00:39,628 - INFO - 🚀 Print server running on port 9100...
+2026-02-20 14:00:39,666 - INFO - Serving on http://0.0.0.0:5000
+2026-02-20 14:01:35,204 - INFO - 🛠 Starting print server ...
+2026-02-20 14:01:35,211 - INFO - 🚀 Print server running on port 9100...
+2026-02-20 14:01:35,213 - INFO - Serving on http://0.0.0.0:5000
+2026-02-20 14:02:31,419 - INFO - 🛠 Starting print server ...
+2026-02-20 14:02:31,425 - INFO - 🚀 Print server running on port 9100...
+2026-02-20 14:02:31,428 - INFO - Serving on http://0.0.0.0:5000
+2026-02-20 14:07:51,083 - INFO - 🛠 Starting print server ...
+2026-02-20 14:07:51,091 - INFO - 🚀 Print server running on port 9100...
+2026-02-20 14:07:51,098 - INFO - Serving on http://0.0.0.0:5000
+2026-02-20 14:09:04,619 - INFO - 🛠 Starting print server ...
+2026-02-20 14:09:04,627 - INFO - 🚀 Print server running on port 9100...
+2026-02-20 14:09:04,632 - INFO - Serving on http://0.0.0.0:5000
+2026-02-20 14:10:18,227 - INFO - 🛠 Starting print server ...
+2026-02-20 14:10:18,241 - INFO - 🚀 Print server running on port 9100...
+2026-02-20 14:10:18,246 - INFO - Serving on http://0.0.0.0:5000
+2026-02-20 14:11:14,769 - INFO - 🛠 Starting print server ...
+2026-02-20 14:11:14,780 - INFO - 🚀 Print server running on port 9100...
+2026-02-20 14:11:14,795 - INFO - Serving on http://0.0.0.0:5000
+2026-02-20 14:11:50,496 - INFO - 🛠 Starting print server ...
+2026-02-20 14:11:50,500 - INFO - 🚀 Print server running on port 9100...
+2026-02-20 14:11:50,512 - INFO - Serving on http://0.0.0.0:5000
+2026-02-20 14:12:31,543 - INFO - 🛠 Starting print server ...
+2026-02-20 14:12:31,548 - INFO - 🚀 Print server running on port 9100...
+2026-02-20 14:12:31,556 - INFO - Serving on http://0.0.0.0:5000
+2026-02-20 14:14:27,989 - INFO - 🛠 Starting print server ...
+2026-02-20 14:14:27,992 - INFO - 🚀 Print server running on port 9100...
+2026-02-20 14:14:28,003 - INFO - Serving on http://0.0.0.0:5000
+2026-02-20 14:16:40,071 - INFO - 🛠 Starting print server ...
+2026-02-20 14:16:40,079 - INFO - 🚀 Print server running on port 9100...
+2026-02-20 14:16:40,093 - INFO - Serving on http://0.0.0.0:5000
+2026-02-20 14:16:59,463 - INFO - 🛠 Starting print server ...
+2026-02-20 14:16:59,468 - INFO - 🚀 Print server running on port 9100...
+2026-02-20 14:16:59,476 - INFO - Serving on http://0.0.0.0:5000
+2026-02-20 14:18:22,124 - INFO - 🛠 Starting print server ...
+2026-02-20 14:18:22,130 - INFO - 🚀 Print server running on port 9100...
+2026-02-20 14:18:22,134 - INFO - Serving on http://0.0.0.0:5000
+2026-02-20 14:19:56,485 - INFO - 🛠 Starting print server ...
+2026-02-20 14:19:56,490 - INFO - 🚀 Print server running on port 9100...
+2026-02-20 14:19:56,499 - INFO - Serving on http://0.0.0.0:5000
+2026-02-20 14:30:49,779 - INFO - 🛠 Starting print server ...
+2026-02-20 14:30:49,786 - INFO - 🚀 Print server running on port 9100...
+2026-02-20 14:30:49,793 - INFO - Serving on http://0.0.0.0:5000
+2026-02-20 14:33:18,846 - INFO - 🛠 Starting print server ...
+2026-02-20 14:33:18,852 - INFO - 🚀 Print server running on port 9100...
+2026-02-20 14:33:18,859 - INFO - Serving on http://0.0.0.0:5000
+2026-02-20 14:38:56,717 - INFO - 🛠 Starting print server ...
+2026-02-20 14:38:56,724 - INFO - 🚀 Print server running on port 9100...
+2026-02-20 14:38:56,731 - INFO - Serving on http://0.0.0.0:5000
+2026-02-20 14:41:33,441 - INFO - 🔗 Connection received from ('127.0.0.1', 41169)
+2026-02-20 14:41:33,448 - INFO - 📄 Deteksi dokumen non-ESC/POS (umum)
+2026-02-20 14:41:33,449 - INFO - 🖨 Mengirim 677 bytes ke printer...
+2026-02-20 14:41:33,451 - INFO - 📃 Print job baru diterima
+2026-02-20 14:41:33,453 - INFO - 🖨️ Mengirim ke printer: \\ESB-LP225\DRIVER SERVER
+2026-02-20 14:41:33,688 - INFO - ✅ Cetak berhasil.
+2026-02-20 14:41:33,688 - INFO - b'\n\x1ba\x01\x1b!8SUSHI KAI\n\x1b@\x1ba\x01Mall Pollux, Jl. Raya Cikarang -  GF\n\x1b@------------------------------------------------\nNo        : SskX20252511210\nTime In   : 25-11-2025 14:17\nInfo      : EKA DINEIN 18\nCashier   : AYU\n------------------------------------------------\nHOT OCHA                                  12.000\n 1X @12000\nABURI BEEF RAMEN                          32.000\n 1X @32000\n\n------------------------------------------------\n2 item\nSubtotal :                                44.000\n------------------------------------------------\n\x1ba2\x1b!\x18Total :    44.000\n\x1d!\x00\nBCA DEBIT       : 44.000\n\x1b@------------------------------------------------  \n\x1ba\x01- Harga sudah termasuk PB1 -\n\n\n\n\x1dV\x00'
+2026-02-20 14:41:33,693 - INFO - 🧾 History tersimpan. Total job: 1
+2026-02-20 14:42:52,038 - INFO - 🔁 Reprint Job ID: 1 (Count: 1)
+2026-02-20 14:42:52,043 - INFO - 🖨️ Mengirim ke printer: \\ESB-LP225\DRIVER SERVER
+2026-02-20 14:42:52,242 - INFO - ✅ Cetak berhasil.
+2026-02-20 14:42:52,242 - INFO - b'\x1ba\x01\x1d!\x11*** REPRINT (1) ***\n\x1d!\x00\x1ba\x00\n\n\x1ba\x01\x1b!8SUSHI KAI\n\x1b@\x1ba\x01Mall Pollux, Jl. Raya Cikarang -  GF\n\x1b@------------------------------------------------\nNo        : SskX20252511210\nTime In   : 25-11-2025 14:17\nInfo      : EKA DINEIN 18\nCashier   : AYU\n------------------------------------------------\nHOT OCHA                                  12.000\n 1X @12000\nABURI BEEF RAMEN                          32.000\n 1X @32000\n\n------------------------------------------------\n2 item\nSubtotal :                                44.000\n------------------------------------------------\n\x1ba2\x1b!\x18Total :    44.000\n\x1d!\x00\nBCA DEBIT       : 44.000\n\x1b@------------------------------------------------  \n\x1ba\x01- Harga sudah termasuk PB1 -\n\n\n\n\x1dV\x00'
+2026-02-20 14:43:02,181 - INFO - 🔁 Reprint Job ID: 1 (Count: 2)
+2026-02-20 14:43:02,181 - INFO - 🖨️ Mengirim ke printer: \\ESB-LP225\DRIVER SERVER
+2026-02-20 14:43:02,342 - INFO - ✅ Cetak berhasil.
+2026-02-20 14:43:02,344 - INFO - b'\x1ba\x01\x1d!\x11*** REPRINT (2) ***\n\x1d!\x00\x1ba\x00\n\n\x1ba\x01\x1b!8SUSHI KAI\n\x1b@\x1ba\x01Mall Pollux, Jl. Raya Cikarang -  GF\n\x1b@------------------------------------------------\nNo        : SskX20252511210\nTime In   : 25-11-2025 14:17\nInfo      : EKA DINEIN 18\nCashier   : AYU\n------------------------------------------------\nHOT OCHA                                  12.000\n 1X @12000\nABURI BEEF RAMEN                          32.000\n 1X @32000\n\n------------------------------------------------\n2 item\nSubtotal :                                44.000\n------------------------------------------------\n\x1ba2\x1b!\x18Total :    44.000\n\x1d!\x00\nBCA DEBIT       : 44.000\n\x1b@------------------------------------------------  \n\x1ba\x01- Harga sudah termasuk PB1 -\n\n\n\n\x1dV\x00'
+2026-02-20 14:43:06,470 - INFO - 🔁 Reprint Job ID: 1 (Count: 3)
+2026-02-20 14:43:06,476 - INFO - 🖨️ Mengirim ke printer: \\ESB-LP225\DRIVER SERVER
+2026-02-20 14:43:06,669 - INFO - ✅ Cetak berhasil.
+2026-02-20 14:43:06,669 - INFO - b'\x1ba\x01\x1d!\x11*** REPRINT (3) ***\n\x1d!\x00\x1ba\x00\n\n\x1ba\x01\x1b!8SUSHI KAI\n\x1b@\x1ba\x01Mall Pollux, Jl. Raya Cikarang -  GF\n\x1b@------------------------------------------------\nNo        : SskX20252511210\nTime In   : 25-11-2025 14:17\nInfo      : EKA DINEIN 18\nCashier   : AYU\n------------------------------------------------\nHOT OCHA                                  12.000\n 1X @12000\nABURI BEEF RAMEN                          32.000\n 1X @32000\n\n------------------------------------------------\n2 item\nSubtotal :                                44.000\n------------------------------------------------\n\x1ba2\x1b!\x18Total :    44.000\n\x1d!\x00\nBCA DEBIT       : 44.000\n\x1b@------------------------------------------------  \n\x1ba\x01- Harga sudah termasuk PB1 -\n\n\n\n\x1dV\x00'
+2026-02-20 14:43:26,891 - INFO - 🔁 Reprint Job ID: 1 (Count: 4)
+2026-02-20 14:43:26,893 - INFO - 🖨️ Mengirim ke printer: \\ESB-LP225\DRIVER SERVER
+2026-02-20 14:43:27,054 - INFO - ✅ Cetak berhasil.
+2026-02-20 14:43:27,054 - INFO - b'\x1ba\x01\x1d!\x11*** REPRINT (4) ***\n\x1d!\x00\x1ba\x00\n\n\x1ba\x01\x1b!8SUSHI KAI\n\x1b@\x1ba\x01Mall Pollux, Jl. Raya Cikarang -  GF\n\x1b@------------------------------------------------\nNo        : SskX20252511210\nTime In   : 25-11-2025 14:17\nInfo      : EKA DINEIN 18\nCashier   : AYU\n------------------------------------------------\nHOT OCHA                                  12.000\n 1X @12000\nABURI BEEF RAMEN                          32.000\n 1X @32000\n\n------------------------------------------------\n2 item\nSubtotal :                                44.000\n------------------------------------------------\n\x1ba2\x1b!\x18Total :    44.000\n\x1d!\x00\nBCA DEBIT       : 44.000\n\x1b@------------------------------------------------  \n\x1ba\x01- Harga sudah termasuk PB1 -\n\n\n\n\x1dV\x00'
+2026-02-20 14:43:35,500 - INFO - 🔁 Reprint Job ID: 1 (Count: 5)
+2026-02-20 14:43:35,502 - INFO - 🖨️ Mengirim ke printer: \\ESB-LP225\DRIVER SERVER
+2026-02-20 14:43:35,675 - INFO - ✅ Cetak berhasil.
+2026-02-20 14:43:35,675 - INFO - b'\x1ba\x01\x1d!\x11*** REPRINT (5) ***\n\x1d!\x00\x1ba\x00\n\n\x1ba\x01\x1b!8SUSHI KAI\n\x1b@\x1ba\x01Mall Pollux, Jl. Raya Cikarang -  GF\n\x1b@------------------------------------------------\nNo        : SskX20252511210\nTime In   : 25-11-2025 14:17\nInfo      : EKA DINEIN 18\nCashier   : AYU\n------------------------------------------------\nHOT OCHA                                  12.000\n 1X @12000\nABURI BEEF RAMEN                          32.000\n 1X @32000\n\n------------------------------------------------\n2 item\nSubtotal :                                44.000\n------------------------------------------------\n\x1ba2\x1b!\x18Total :    44.000\n\x1d!\x00\nBCA DEBIT       : 44.000\n\x1b@------------------------------------------------  \n\x1ba\x01- Harga sudah termasuk PB1 -\n\n\n\n\x1dV\x00'
+2026-02-20 14:48:03,744 - INFO - 🛠 Starting print server ...
+2026-02-20 14:48:03,752 - INFO - 🚀 Print server running on port 9100...
+2026-02-20 14:48:03,757 - INFO - Serving on http://0.0.0.0:5000
+2026-02-20 14:48:11,597 - INFO - 🔁 Reprint Job ID: 1 (Count: 6)
+2026-02-20 14:48:11,597 - INFO - 🖨️ Mengirim ke printer: \\ESB-LP225\DRIVER SERVER
+2026-02-20 14:48:11,785 - INFO - ✅ Cetak berhasil.
+2026-02-20 14:48:11,787 - INFO - b'\x1ba\x01\x1d!\x11*** REPRINT (6) ***\n\x1d!\x00\x1ba\x00\n\n\x1ba\x01\x1b!8SUSHI KAI\n\x1b@\x1ba\x01Mall Pollux, Jl. Raya Cikarang -  GF\n\x1b@------------------------------------------------\nNo        : SskX20252511210\nTime In   : 25-11-2025 14:17\nInfo      : EKA DINEIN 18\nCashier   : AYU\n------------------------------------------------\nHOT OCHA                                  12.000\n 1X @12000\nABURI BEEF RAMEN                          32.000\n 1X @32000\n\n------------------------------------------------\n2 item\nSubtotal :                                44.000\n------------------------------------------------\n\x1ba2\x1b!\x18Total :    44.000\n\x1d!\x00\nBCA DEBIT       : 44.000\n\x1b@------------------------------------------------  \n\x1ba\x01- Harga sudah termasuk PB1 -\n\n\n\n\x1dV\x00'
+2026-02-20 14:48:14,927 - INFO - 🔁 Reprint Job ID: 1 (Count: 7)
+2026-02-20 14:48:14,927 - INFO - 🖨️ Mengirim ke printer: \\ESB-LP225\DRIVER SERVER
+2026-02-20 14:48:15,112 - INFO - ✅ Cetak berhasil.
+2026-02-20 14:48:15,112 - INFO - b'\x1ba\x01\x1d!\x11*** REPRINT (7) ***\n\x1d!\x00\x1ba\x00\n\n\x1ba\x01\x1b!8SUSHI KAI\n\x1b@\x1ba\x01Mall Pollux, Jl. Raya Cikarang -  GF\n\x1b@------------------------------------------------\nNo        : SskX20252511210\nTime In   : 25-11-2025 14:17\nInfo      : EKA DINEIN 18\nCashier   : AYU\n------------------------------------------------\nHOT OCHA                                  12.000\n 1X @12000\nABURI BEEF RAMEN                          32.000\n 1X @32000\n\n------------------------------------------------\n2 item\nSubtotal :                                44.000\n------------------------------------------------\n\x1ba2\x1b!\x18Total :    44.000\n\x1d!\x00\nBCA DEBIT       : 44.000\n\x1b@------------------------------------------------  \n\x1ba\x01- Harga sudah termasuk PB1 -\n\n\n\n\x1dV\x00'
+2026-02-20 14:48:41,052 - INFO - 🔁 Reprint Job ID: 1 (Count: 3)
+2026-02-20 14:48:41,052 - INFO - 🖨️ Mengirim ke printer: \\ESB-LP225\DRIVER SERVER
+2026-02-20 14:48:41,264 - INFO - ✅ Cetak berhasil.
+2026-02-20 14:48:41,266 - INFO - b'\x1ba\x01\x1d!\x11*** REPRINT (3) ***\n\x1d!\x00\x1ba\x00\n\n\x1ba\x01\x1b!8SUSHI KAI\n\x1b@\x1ba\x01Mall Pollux, Jl. Raya Cikarang -  GF\n\x1b@------------------------------------------------\nNo        : SskX20252511210\nTime In   : 25-11-2025 14:17\nInfo      : EKA DINEIN 18\nCashier   : AYU\n------------------------------------------------\nHOT OCHA                                  12.000\n 1X @12000\nABURI BEEF RAMEN                          32.000\n 1X @32000\n\n------------------------------------------------\n2 item\nSubtotal :                                44.000\n------------------------------------------------\n\x1ba2\x1b!\x18Total :    44.000\n\x1d!\x00\nBCA DEBIT       : 44.000\n\x1b@------------------------------------------------  \n\x1ba\x01- Harga sudah termasuk PB1 -\n\n\n\n\x1dV\x00'
+2026-02-20 14:48:45,367 - INFO - 🔁 Reprint Job ID: 1 (Count: 4)
+2026-02-20 14:48:45,367 - INFO - 🖨️ Mengirim ke printer: \\ESB-LP225\DRIVER SERVER
+2026-02-20 14:48:45,568 - INFO - ✅ Cetak berhasil.
+2026-02-20 14:48:45,570 - INFO - b'\x1ba\x01\x1d!\x11*** REPRINT (4) ***\n\x1d!\x00\x1ba\x00\n\n\x1ba\x01\x1b!8SUSHI KAI\n\x1b@\x1ba\x01Mall Pollux, Jl. Raya Cikarang -  GF\n\x1b@------------------------------------------------\nNo        : SskX20252511210\nTime In   : 25-11-2025 14:17\nInfo      : EKA DINEIN 18\nCashier   : AYU\n------------------------------------------------\nHOT OCHA                                  12.000\n 1X @12000\nABURI BEEF RAMEN                          32.000\n 1X @32000\n\n------------------------------------------------\n2 item\nSubtotal :                                44.000\n------------------------------------------------\n\x1ba2\x1b!\x18Total :    44.000\n\x1d!\x00\nBCA DEBIT       : 44.000\n\x1b@------------------------------------------------  \n\x1ba\x01- Harga sudah termasuk PB1 -\n\n\n\n\x1dV\x00'
+2026-02-20 14:48:51,491 - INFO - 🔁 Reprint Job ID: 1 (Count: 5)
+2026-02-20 14:48:51,492 - INFO - 🖨️ Mengirim ke printer: \\ESB-LP225\DRIVER SERVER
+2026-02-20 14:48:51,682 - INFO - ✅ Cetak berhasil.
+2026-02-20 14:48:51,682 - INFO - b'\x1ba\x01\x1d!\x11*** REPRINT (5) ***\n\x1d!\x00\x1ba\x00\n\n\x1ba\x01\x1b!8SUSHI KAI\n\x1b@\x1ba\x01Mall Pollux, Jl. Raya Cikarang -  GF\n\x1b@------------------------------------------------\nNo        : SskX20252511210\nTime In   : 25-11-2025 14:17\nInfo      : EKA DINEIN 18\nCashier   : AYU\n------------------------------------------------\nHOT OCHA                                  12.000\n 1X @12000\nABURI BEEF RAMEN                          32.000\n 1X @32000\n\n------------------------------------------------\n2 item\nSubtotal :                                44.000\n------------------------------------------------\n\x1ba2\x1b!\x18Total :    44.000\n\x1d!\x00\nBCA DEBIT       : 44.000\n\x1b@------------------------------------------------  \n\x1ba\x01- Harga sudah termasuk PB1 -\n\n\n\n\x1dV\x00'
+2026-02-20 14:50:14,627 - INFO - 🛠 Starting print server ...
+2026-02-20 14:50:14,634 - INFO - 🚀 Print server running on port 9100...
+2026-02-20 14:50:14,641 - INFO - Serving on http://0.0.0.0:5000
+2026-02-20 14:50:19,214 - INFO - 🔁 Reprint Job ID: 1 (Count: 6)
+2026-02-20 14:50:19,214 - INFO - 🖨️ Mengirim ke printer: \\ESB-LP225\DRIVER SERVER
+2026-02-20 14:50:19,415 - INFO - ✅ Cetak berhasil.
+2026-02-20 14:50:19,415 - INFO - b'\x1ba\x01\x1d!\x11*** REPRINT (6) ***\n\x1d!\x00\x1ba\x00\n\n\x1ba\x01\x1b!8SUSHI KAI\n\x1b@\x1ba\x01Mall Pollux, Jl. Raya Cikarang -  GF\n\x1b@------------------------------------------------\nNo        : SskX20252511210\nTime In   : 25-11-2025 14:17\nInfo      : EKA DINEIN 18\nCashier   : AYU\n------------------------------------------------\nHOT OCHA                                  12.000\n 1X @12000\nABURI BEEF RAMEN                          32.000\n 1X @32000\n\n------------------------------------------------\n2 item\nSubtotal :                                44.000\n------------------------------------------------\n\x1ba2\x1b!\x18Total :    44.000\n\x1d!\x00\nBCA DEBIT       : 44.000\n\x1b@------------------------------------------------  \n\x1ba\x01- Harga sudah termasuk PB1 -\n\n\n\n\x1dV\x00'
+2026-02-20 14:50:42,693 - INFO - 🛠 Starting print server ...
+2026-02-20 14:50:42,693 - INFO - 🚀 Print server running on port 9100...
+2026-02-20 14:50:42,703 - INFO - Serving on http://0.0.0.0:5000
+2026-02-20 14:50:48,601 - INFO - 🔁 Reprint Job ID: 1 (Count: 7)
+2026-02-20 14:50:48,601 - INFO - 🖨️ Mengirim ke printer: \\ESB-LP225\DRIVER SERVER
+2026-02-20 14:50:48,766 - INFO - ✅ Cetak berhasil.
+2026-02-20 14:50:48,768 - INFO - b'\x1ba\x01\x1d!\x11*** REPRINT (7) ***\n\x1d!\x00\x1ba\x00\n\n\x1ba\x01\x1b!8SUSHI KAI\n\x1b@\x1ba\x01Mall Pollux, Jl. Raya Cikarang -  GF\n\x1b@------------------------------------------------\nNo        : SskX20252511210\nTime In   : 25-11-2025 14:17\nInfo      : EKA DINEIN 18\nCashier   : AYU\n------------------------------------------------\nHOT OCHA                                  12.000\n 1X @12000\nABURI BEEF RAMEN                          32.000\n 1X @32000\n\n------------------------------------------------\n2 item\nSubtotal :                                44.000\n------------------------------------------------\n\x1ba2\x1b!\x18Total :    44.000\n\x1d!\x00\nBCA DEBIT       : 44.000\n\x1b@------------------------------------------------  \n\x1ba\x01- Harga sudah termasuk PB1 -\n\n\n\n\x1dV\x00'
+2026-02-20 14:52:50,747 - INFO - 🛠 Starting print server ...
+2026-02-20 14:52:50,757 - INFO - 🚀 Print server running on port 9100...
+2026-02-20 14:52:50,764 - INFO - Serving on http://0.0.0.0:5000
+2026-02-20 14:53:06,809 - INFO - 🔁 Reprint Job ID: 1 (Count: 2)
+2026-02-20 14:53:06,809 - INFO - 🖨️ Mengirim ke printer: \\ESB-LP225\DRIVER SERVER
+2026-02-20 14:53:07,038 - INFO - ✅ Cetak berhasil.
+2026-02-20 14:53:07,040 - INFO - b'\x1ba\x01\x1d!\x11*** REPRINT (2) ***\n\x1d!\x00\x1ba\x00\n\n\x1ba\x01\x1b!8SUSHI KAI\n\x1b@\x1ba\x01Mall Pollux, Jl. Raya Cikarang -  GF\n\x1b@------------------------------------------------\nNo        : SskX20252511210\nTime In   : 25-11-2025 14:17\nInfo      : EKA DINEIN 18\nCashier   : AYU\n------------------------------------------------\nHOT OCHA                                  12.000\n 1X @12000\nABURI BEEF RAMEN                          32.000\n 1X @32000\n\n------------------------------------------------\n2 item\nSubtotal :                                44.000\n------------------------------------------------\n\x1ba2\x1b!\x18Total :    44.000\n\x1d!\x00\nBCA DEBIT       : 44.000\n\x1b@------------------------------------------------  \n\x1ba\x01- Harga sudah termasuk PB1 -\n\n\n\n\x1dV\x00'
+2026-02-20 14:53:19,822 - INFO - 🔁 Reprint Job ID: 1 (Count: 3)
+2026-02-20 14:53:19,822 - INFO - 🖨️ Mengirim ke printer: \\ESB-LP225\DRIVER SERVER
+2026-02-20 14:53:20,039 - INFO - ✅ Cetak berhasil.
+2026-02-20 14:53:20,041 - INFO - b'\x1ba\x01\x1d!\x11*** REPRINT (3) ***\n\x1d!\x00\x1ba\x00\n\n\x1ba\x01\x1b!8SUSHI KAI\n\x1b@\x1ba\x01Mall Pollux, Jl. Raya Cikarang -  GF\n\x1b@------------------------------------------------\nNo        : SskX20252511210\nTime In   : 25-11-2025 14:17\nInfo      : EKA DINEIN 18\nCashier   : AYU\n------------------------------------------------\nHOT OCHA                                  12.000\n 1X @12000\nABURI BEEF RAMEN                          32.000\n 1X @32000\n\n------------------------------------------------\n2 item\nSubtotal :                                44.000\n------------------------------------------------\n\x1ba2\x1b!\x18Total :    44.000\n\x1d!\x00\nBCA DEBIT       : 44.000\n\x1b@------------------------------------------------  \n\x1ba\x01- Harga sudah termasuk PB1 -\n\n\n\n\x1dV\x00'
+2026-02-20 14:53:44,756 - INFO - 🛠 Starting print server ...
+2026-02-20 14:53:44,766 - INFO - 🚀 Print server running on port 9100...
+2026-02-20 14:53:44,772 - INFO - Serving on http://0.0.0.0:5000
+2026-02-20 14:53:49,830 - INFO - 🔁 Reprint Job ID: 1 (Count: 4)
+2026-02-20 14:53:49,830 - INFO - 🖨️ Mengirim ke printer: \\ESB-LP225\DRIVER SERVER
+2026-02-20 14:53:50,024 - INFO - ✅ Cetak berhasil.
+2026-02-20 14:53:50,024 - INFO - b'\x1ba\x01\x1d!\x11*** REPRINT (4) ***\n\x1d!\x00\x1ba\x00\n\n\x1ba\x01\x1b!8SUSHI KAI\n\x1b@\x1ba\x01Mall Pollux, Jl. Raya Cikarang -  GF\n\x1b@------------------------------------------------\nNo        : SskX20252511210\nTime In   : 25-11-2025 14:17\nInfo      : EKA DINEIN 18\nCashier   : AYU\n------------------------------------------------\nHOT OCHA                                  12.000\n 1X @12000\nABURI BEEF RAMEN                          32.000\n 1X @32000\n\n------------------------------------------------\n2 item\nSubtotal :                                44.000\n------------------------------------------------\n\x1ba2\x1b!\x18Total :    44.000\n\x1d!\x00\nBCA DEBIT       : 44.000\n\x1b@------------------------------------------------  \n\x1ba\x01- Harga sudah termasuk PB1 -\n\n\n\n\x1dV\x00'
+2026-02-20 14:54:38,210 - INFO - 🛠 Starting print server ...
+2026-02-20 14:54:38,219 - INFO - 🚀 Print server running on port 9100...
+2026-02-20 14:54:38,222 - INFO - Serving on http://0.0.0.0:5000
+2026-02-20 14:54:43,251 - INFO - 🔁 Reprint Job ID: 1 (Count: 5)
+2026-02-20 14:54:43,253 - INFO - 🖨️ Mengirim ke printer: \\ESB-LP225\DRIVER SERVER
+2026-02-20 14:54:43,467 - INFO - ✅ Cetak berhasil.
+2026-02-20 14:54:43,467 - INFO - b'\x1ba\x01\x1d!\x11*** REPRINT (5) ***\n\x1d!\x00\x1ba\x00\n\n\x1ba\x01\x1b!8SUSHI KAI\n\x1b@\x1ba\x01Mall Pollux, Jl. Raya Cikarang -  GF\n\x1b@------------------------------------------------\nNo        : SskX20252511210\nTime In   : 25-11-2025 14:17\nInfo      : EKA DINEIN 18\nCashier   : AYU\n------------------------------------------------\nHOT OCHA                                  12.000\n 1X @12000\nABURI BEEF RAMEN                          32.000\n 1X @32000\n\n------------------------------------------------\n2 item\nSubtotal :                                44.000\n------------------------------------------------\n\x1ba2\x1b!\x18Total :    44.000\n\x1d!\x00\nBCA DEBIT       : 44.000\n\x1b@------------------------------------------------  \n\x1ba\x01- Harga sudah termasuk PB1 -\n\n\n\n\x1dV\x00'
+2026-02-20 14:54:47,163 - INFO - 🔁 Reprint Job ID: 1 (Count: 6)
+2026-02-20 14:54:47,163 - INFO - 🖨️ Mengirim ke printer: \\ESB-LP225\DRIVER SERVER
+2026-02-20 14:54:47,334 - INFO - ✅ Cetak berhasil.
+2026-02-20 14:54:47,335 - INFO - b'\x1ba\x01\x1d!\x11*** REPRINT (6) ***\n\x1d!\x00\x1ba\x00\n\n\x1ba\x01\x1b!8SUSHI KAI\n\x1b@\x1ba\x01Mall Pollux, Jl. Raya Cikarang -  GF\n\x1b@------------------------------------------------\nNo        : SskX20252511210\nTime In   : 25-11-2025 14:17\nInfo      : EKA DINEIN 18\nCashier   : AYU\n------------------------------------------------\nHOT OCHA                                  12.000\n 1X @12000\nABURI BEEF RAMEN                          32.000\n 1X @32000\n\n------------------------------------------------\n2 item\nSubtotal :                                44.000\n------------------------------------------------\n\x1ba2\x1b!\x18Total :    44.000\n\x1d!\x00\nBCA DEBIT       : 44.000\n\x1b@------------------------------------------------  \n\x1ba\x01- Harga sudah termasuk PB1 -\n\n\n\n\x1dV\x00'
+2026-02-20 14:55:31,969 - INFO - 🛠 Starting print server ...
+2026-02-20 14:55:31,976 - INFO - 🚀 Print server running on port 9100...
+2026-02-20 14:55:32,000 - INFO - Serving on http://0.0.0.0:5000
+2026-02-20 14:55:37,136 - INFO - 🔁 Reprint Job ID: 1 (Count: 7)
+2026-02-20 14:55:37,138 - INFO - 🖨️ Mengirim ke printer: \\ESB-LP225\DRIVER SERVER
+2026-02-20 14:55:37,357 - INFO - ✅ Cetak berhasil.
+2026-02-20 14:55:37,357 - INFO - b'\x1ba\x01\x1d!\x11*** REPRINT (7) ***\n\x1d!\x00\x1ba\x00\n\n\x1ba\x01\x1b!8SUSHI KAI\n\x1b@\x1ba\x01Mall Pollux, Jl. Raya Cikarang -  GF\n\x1b@------------------------------------------------\nNo        : SskX20252511210\nTime In   : 25-11-2025 14:17\nInfo      : EKA DINEIN 18\nCashier   : AYU\n------------------------------------------------\nHOT OCHA                                  12.000\n 1X @12000\nABURI BEEF RAMEN                          32.000\n 1X @32000\n\n------------------------------------------------\n2 item\nSubtotal :                                44.000\n------------------------------------------------\n\x1ba2\x1b!\x18Total :    44.000\n\x1d!\x00\nBCA DEBIT       : 44.000\n\x1b@------------------------------------------------  \n\x1ba\x01- Harga sudah termasuk PB1 -\n\n\n\n\x1dV\x00'
+2026-02-20 14:56:35,580 - INFO - 🛠 Starting print server ...
+2026-02-20 14:56:35,593 - INFO - 🚀 Print server running on port 9100...
+2026-02-20 14:56:35,599 - INFO - Serving on http://0.0.0.0:5000
+2026-02-20 14:56:52,531 - INFO - 🔁 Reprint Job ID: 1 (Count: 1)
+2026-02-20 14:56:52,531 - INFO - 🖨️ Mengirim ke printer: \\ESB-LP225\DRIVER SERVER
+2026-02-20 14:56:52,727 - INFO - ✅ Cetak berhasil.
+2026-02-20 14:56:52,727 - INFO - b'\x1ba\x01\x1d!\x11*** REPRINT (1) ***\n\x1d!\x00\x1ba\x00\n\n\x1ba\x01\x1b!8SUSHI KAI\n\x1b@\x1ba\x01Mall Pollux, Jl. Raya Cikarang -  GF\n\x1b@------------------------------------------------\nNo        : SskX20252511210\nTime In   : 25-11-2025 14:17\nInfo      : EKA DINEIN 18\nCashier   : AYU\n------------------------------------------------\nHOT OCHA                                  12.000\n 1X @12000\nABURI BEEF RAMEN                          32.000\n 1X @32000\n\n------------------------------------------------\n2 item\nSubtotal :                                44.000\n------------------------------------------------\n\x1ba2\x1b!\x18Total :    44.000\n\x1d!\x00\nBCA DEBIT       : 44.000\n\x1b@------------------------------------------------  \n\x1ba\x01- Harga sudah termasuk PB1 -\n\n\n\n\x1dV\x00'
+2026-02-20 14:56:55,626 - INFO - 🔁 Reprint Job ID: 1 (Count: 2)
+2026-02-20 14:56:55,627 - INFO - 🖨️ Mengirim ke printer: \\ESB-LP225\DRIVER SERVER
+2026-02-20 14:56:55,802 - INFO - ✅ Cetak berhasil.
+2026-02-20 14:56:55,803 - INFO - b'\x1ba\x01\x1d!\x11*** REPRINT (2) ***\n\x1d!\x00\x1ba\x00\n\n\x1ba\x01\x1b!8SUSHI KAI\n\x1b@\x1ba\x01Mall Pollux, Jl. Raya Cikarang -  GF\n\x1b@------------------------------------------------\nNo        : SskX20252511210\nTime In   : 25-11-2025 14:17\nInfo      : EKA DINEIN 18\nCashier   : AYU\n------------------------------------------------\nHOT OCHA                                  12.000\n 1X @12000\nABURI BEEF RAMEN                          32.000\n 1X @32000\n\n------------------------------------------------\n2 item\nSubtotal :                                44.000\n------------------------------------------------\n\x1ba2\x1b!\x18Total :    44.000\n\x1d!\x00\nBCA DEBIT       : 44.000\n\x1b@------------------------------------------------  \n\x1ba\x01- Harga sudah termasuk PB1 -\n\n\n\n\x1dV\x00'
+2026-02-20 14:57:00,767 - INFO - 🔁 Reprint Job ID: 1 (Count: 3)
+2026-02-20 14:57:00,770 - INFO - 🖨️ Mengirim ke printer: \\ESB-LP225\DRIVER SERVER
+2026-02-20 14:57:00,975 - INFO - ✅ Cetak berhasil.
+2026-02-20 14:57:00,975 - INFO - b'\x1ba\x01\x1d!\x11*** REPRINT (3) ***\n\x1d!\x00\x1ba\x00\n\n\x1ba\x01\x1b!8SUSHI KAI\n\x1b@\x1ba\x01Mall Pollux, Jl. Raya Cikarang -  GF\n\x1b@------------------------------------------------\nNo        : SskX20252511210\nTime In   : 25-11-2025 14:17\nInfo      : EKA DINEIN 18\nCashier   : AYU\n------------------------------------------------\nHOT OCHA                                  12.000\n 1X @12000\nABURI BEEF RAMEN                          32.000\n 1X @32000\n\n------------------------------------------------\n2 item\nSubtotal :                                44.000\n------------------------------------------------\n\x1ba2\x1b!\x18Total :    44.000\n\x1d!\x00\nBCA DEBIT       : 44.000\n\x1b@------------------------------------------------  \n\x1ba\x01- Harga sudah termasuk PB1 -\n\n\n\n\x1dV\x00'
+2026-02-20 14:57:18,371 - INFO - 🛠 Starting print server ...
+2026-02-20 14:57:18,376 - INFO - 🚀 Print server running on port 9100...
+2026-02-20 14:57:18,383 - INFO - Serving on http://0.0.0.0:5000
+2026-02-20 14:57:23,068 - INFO - 🔁 Reprint Job ID: 1 (Count: 4)
+2026-02-20 14:57:23,068 - INFO - 🖨️ Mengirim ke printer: \\ESB-LP225\DRIVER SERVER
+2026-02-20 14:57:23,280 - INFO - ✅ Cetak berhasil.
+2026-02-20 14:57:23,280 - INFO - b'\x1ba\x01\x1d!\x11*** REPRINT (4) ***\n\x1d!\x00\x1ba\x00\n\n\x1ba\x01\x1b!8SUSHI KAI\n\x1b@\x1ba\x01Mall Pollux, Jl. Raya Cikarang -  GF\n\x1b@------------------------------------------------\nNo        : SskX20252511210\nTime In   : 25-11-2025 14:17\nInfo      : EKA DINEIN 18\nCashier   : AYU\n------------------------------------------------\nHOT OCHA                                  12.000\n 1X @12000\nABURI BEEF RAMEN                          32.000\n 1X @32000\n\n------------------------------------------------\n2 item\nSubtotal :                                44.000\n------------------------------------------------\n\x1ba2\x1b!\x18Total :    44.000\n\x1d!\x00\nBCA DEBIT       : 44.000\n\x1b@------------------------------------------------  \n\x1ba\x01- Harga sudah termasuk PB1 -\n\n\n\n\x1dV\x00'
+2026-02-20 14:57:26,628 - INFO - 🔁 Reprint Job ID: 1 (Count: 5)
+2026-02-20 14:57:26,628 - INFO - 🖨️ Mengirim ke printer: \\ESB-LP225\DRIVER SERVER
+2026-02-20 14:57:26,798 - INFO - ✅ Cetak berhasil.
+2026-02-20 14:57:26,798 - INFO - b'\x1ba\x01\x1d!\x11*** REPRINT (5) ***\n\x1d!\x00\x1ba\x00\n\n\x1ba\x01\x1b!8SUSHI KAI\n\x1b@\x1ba\x01Mall Pollux, Jl. Raya Cikarang -  GF\n\x1b@------------------------------------------------\nNo        : SskX20252511210\nTime In   : 25-11-2025 14:17\nInfo      : EKA DINEIN 18\nCashier   : AYU\n------------------------------------------------\nHOT OCHA                                  12.000\n 1X @12000\nABURI BEEF RAMEN                          32.000\n 1X @32000\n\n------------------------------------------------\n2 item\nSubtotal :                                44.000\n------------------------------------------------\n\x1ba2\x1b!\x18Total :    44.000\n\x1d!\x00\nBCA DEBIT       : 44.000\n\x1b@------------------------------------------------  \n\x1ba\x01- Harga sudah termasuk PB1 -\n\n\n\n\x1dV\x00'
+2026-02-20 14:58:23,831 - INFO - 🔁 Reprint Job ID: 1 (Count: 6)
+2026-02-20 14:58:23,833 - INFO - 🖨️ Mengirim ke printer: \\ESB-LP225\DRIVER SERVER
+2026-02-20 14:58:23,999 - INFO - ✅ Cetak berhasil.
+2026-02-20 14:58:24,000 - INFO - b'\x1ba\x01\x1d!\x11*** REPRINT (6) ***\n\x1d!\x00\x1ba\x00\n\n\x1ba\x01\x1b!8SUSHI KAI\n\x1b@\x1ba\x01Mall Pollux, Jl. Raya Cikarang -  GF\n\x1b@------------------------------------------------\nNo        : SskX20252511210\nTime In   : 25-11-2025 14:17\nInfo      : EKA DINEIN 18\nCashier   : AYU\n------------------------------------------------\nHOT OCHA                                  12.000\n 1X @12000\nABURI BEEF RAMEN                          32.000\n 1X @32000\n\n------------------------------------------------\n2 item\nSubtotal :                                44.000\n------------------------------------------------\n\x1ba2\x1b!\x18Total :    44.000\n\x1d!\x00\nBCA DEBIT       : 44.000\n\x1b@------------------------------------------------  \n\x1ba\x01- Harga sudah termasuk PB1 -\n\n\n\n\x1dV\x00'

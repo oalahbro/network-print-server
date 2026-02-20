@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display');
+
+body {
+    font-family: 'Inter', sans-serif;
+    margin-top: 20px;
+    padding-top: 20px;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1,
+h2 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input,
+select,
+button {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+button {
+    background-color: #28a745;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+.log-container {
+    padding: 5px;
+    font-family: monospace;
+    background: #333;
+    color: #fff;
+    border-radius: 5px;
+    max-height: 300px;
+    overflow-y: auto;
+    white-space: pre-wrap;
+    /* Mencegah teks wrapping aneh */
+}
+
+.log-line {
+    margin: 0;
+    padding: 2px 5px;
+    /* Atur padding agar lebih rapat */
+    display: block;
+    text-indent: 0;
+    /* Pastikan teks rata kiri */
+}
+
+.refresh-button {
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 0;
+}
+
+.refresh-button:hover {
+    opacity: 0.3;
+}
+
+.tab-buttons button {
+    flex: 1;
+    background: #007bff;
+}
+
+.tab-buttons button:hover {
+    background: #0056b3;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 14px;
+    background: #fff;
+    border-top: 1px solid #ccc;
+}
+
+footer a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.modal-overlay {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.4);
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+.modal-header {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #eee;
+    flex-shrink: 0;
+}
+
+.modal-box {
+    background: white;
+    width: 400px;
+    max-height: 70%;
+    display: flex;
+    padding: 20px;
+    border-radius: 8px;
+    flex-direction: column;
+    animation: fadeIn 0.2s ease-in-out;
+}
+
+.modal-content {
+    padding: 15px;
+    overflow-y: auto;
+    flex: 1;
+    /* ambil sisa ruang */
+}
+
+.modal-close {
+    cursor: pointer;
+    background: transparent;
+    border-color: red;
+    color: red;
+    font-size: 26px;
+}
+
+button.modal-close {
+    padding: 0 5px 0 5px;
+}
+
+button.modal-close:hover {
+    background-color: red;
+    color: white;
+}
+
+.toast {
+    position: fixed !important;
+    bottom: 20px !important;
+    right: 20px !important;
+    background: #28a745;
+    color: white;
+    padding: 10px 15px !important;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    z-index: 9999 !important;
+    animation: fadeIn .2s ease-in-out;
+}
+
+/* ===== GLASS OVERLAY ===== */
+.glass {
+    font-family: 'Inter', sans-serif;
+    position: relative;
+    align-items: center;
+    padding: 14px 26px;
+    border-radius: 22px;
+    border: 1px solid rgba(255, 255, 255, .35);
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+
+    backdrop-filter: blur(22px) saturate(180%);
+
+    box-shadow:
+        inset 0 1px 2px rgba(255, 255, 255, .35),
+        inset 0 -2px 6px rgba(0, 0, 0, .2),
+        0 4px 10px rgba(0, 0, 0, .2);
+
+    transition: .25s ease;
+    overflow: hidden;
+}
+
+/* ⭐ ROUND GLASS HIGHLIGHT */
+.glass::before {
+    content: "";
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    top: -80px;
+    left: -80px;
+    border-radius: 50%;
+
+    background: radial-gradient(circle,
+            rgba(255, 255, 255, .45) 0%,
+            rgba(255, 255, 255, .18) 35%,
+            transparent 65%);
+
+    transition: .45s ease;
+}
+
+/* hover glass */
+.glass:hover {
+    transform: translateY(-1px);
+    box-shadow:
+        inset 0 1px 2px rgba(255, 255, 255, .4),
+        inset 0 -2px 6px rgba(0, 0, 0, .25),
+        0 8px 18px rgba(0, 0, 0, .3);
+}
+
+/* highlight move */
+.glass:hover::before {
+    top: -40px;
+    left: 40%;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: scale(0.95);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Restarting...</title>
+    <style>
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        font-family: Arial, sans-serif;
+        text-align: center;
+      }
+      .container {
+        max-width: 600px;
+      }
+      h1 {
+        margin-bottom: 10px;
+      }
+      p {
+        font-size: 18px;
+      }
+    </style>
+    <script>
+      let countdown = 3;
+      function updateCountdown() {
+        document.getElementById("countdown").textContent = countdown;
+        if (countdown > 0) {
+          countdown--;
+          setTimeout(updateCountdown, 1000);
+        }
+      }
+
+      setTimeout(function () {
+        window.location.href = "http://localhost:5000";
+      }, 3000); // Tunggu 3 detik sebelum redirect
+
+      window.onload = updateCountdown;
+    </script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>EPP sedang restart...</h1>
+      <p>
+        Anda akan diarahkan ke dashboard dalam
+        <span id="countdown"><b>3</b></span> detik.
+      </p>
+    </div>
+  </body>
+</html>
